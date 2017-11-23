@@ -1,0 +1,8 @@
+document.location
+document.cookie
+javascript:alert
+&lt;script&gt;
+&lt;/script&gt;
+onpagehide
+&lt;
+&gt;
