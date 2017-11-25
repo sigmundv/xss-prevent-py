@@ -4,7 +4,7 @@
 
 import scapy.all
 import scapy_http.http
-import scapy_ssl_tls.ssl_tls
+#import scapy_ssl_tls.ssl_tls
 from netfilterqueue import NetfilterQueue
 import logging
 from urllib.parse import unquote

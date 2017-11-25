@@ -20,7 +20,11 @@ class IpTables:
 
         :return:
         """
-        return iptc.Rule()
+        rule = iptc.Rule()
+        rule.protocol = "tcp"
+        match = rule.create_match("tcp")
+        match.dport = "80"
+        return rule
 
     @staticmethod
     def create_target(rule, target):
@@ -52,13 +56,3 @@ class IpTables:
         """
         chain.delete_rule(rule)
 
-
-# output_chain = iptc.Chain(iptc.Table(iptc.Table.FILTER), "OUTPUT")
-# input_chain = iptc.Chain(iptc.Table(iptc.Table.FILTER), "INPUT")
-# forward_chain = iptc.Chain(iptc.Table(iptc.Table.FILTER), "FORWARD")
-# rule = iptc.Rule()
-# rule.create_target("NFQUEUE")
-# output_chain.insert_rule(rule)
-# input_chain.insert_rule(rule)
-# forward_chain.insert_rule(rule)
-# chains = (input_chain, output_chain, forward_chain)
