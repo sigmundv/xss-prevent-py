@@ -23,30 +23,32 @@ class Sniffer:
         Initialise iptables rules, netfilterqueue and the classifier.
         """
         self.http_request = scapy_http.http.HTTPRequest
-        self.chains, self.rule = self.set_iptables_rules()
+        self.chains = self.set_iptables_rules()
         self.nfqueue = NetfilterQueue()
         self.classifier = Classifier()
 
-    @staticmethod
-    def set_iptables_rules():
+    def set_iptables_rules(self):
         """
 
         :return:
         """
-        iptables = IpTables()
-        output_chain = iptables.create_chain("OUTPUT")
-        input_chain = iptables.create_chain("INPUT")
-        forward_chain = iptables.create_chain("FORWARD")
-        rule = IpTables.create_rule()
-        IpTables.create_target(rule, "NFQUEUE")
-        IpTables.insert_rule(output_chain, rule)
-        IpTables.insert_rule(input_chain, rule)
-        IpTables.insert_rule(forward_chain, rule)
+        self.iptables = IpTables()
+        output_chain = self.iptables.create_chain("OUTPUT")
+        input_chain = self.iptables.create_chain("INPUT")
+        forward_chain = self.iptables.create_chain("FORWARD")
+        rules = (IpTables.create_rule(destination_port=p) for p in [80, 443])
+        for rule in rules:
+            IpTables.create_target(rule, "NFQUEUE")
+            IpTables.insert_rule(output_chain, rule)
+            IpTables.insert_rule(input_chain, rule)
+            IpTables.insert_rule(forward_chain, rule)
+        self.iptables.table.commit()
+        self.iptables.table.refresh()
         chains = (input_chain, output_chain, forward_chain)
 
         logging.info("iptables rules added")
 
-        return chains, rule
+        return chains
 
     def analyze_packet(self, packet):
         """
@@ -112,9 +114,15 @@ class Sniffer:
         print('unbinding from NFQUEUE')
         logging.info("Unbinding from Netfilter Queue")
         self.nfqueue.unbind()
-        for chain in self.chains:
-            chain.delete_rule(self.rule)
         logging.info("Deleting iptables rules")
+        for chain in self.chains:
+            logging.info("Deleting rules from chain %s", chain)
+            for rule in chain.rules:
+                logging.debug("Deleting rule %s", rule)
+                chain.delete_rule(rule)
+        self.iptables.table.commit()
+        self.iptables.table.close()
+        logging.info("Deleted iptables rules")
 
 
 if __name__ == "__main__":

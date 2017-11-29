@@ -5,6 +5,7 @@ class IpTables:
 
     def __init__(self):
         self.table = iptc.Table(iptc.Table.FILTER)
+        self.table.autocommit = False
 
     def create_chain(self, chain):
         """
@@ -15,15 +16,16 @@ class IpTables:
         return iptc.Chain(self.table, chain)
 
     @staticmethod
-    def create_rule():
+    def create_rule(destination="127.0.0.1", destination_port=80, protocol="tcp"):
         """
 
         :return:
         """
         rule = iptc.Rule()
-        rule.protocol = "tcp"
-        match = rule.create_match("tcp")
-        match.dport = "80"
+        rule.dst = destination
+        rule.protocol = protocol
+        match = rule.create_match(protocol)
+        match.dport = str(destination_port)
         return rule
 
     @staticmethod
