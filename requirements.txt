@@ -20,7 +20,8 @@ numpy == 1.13.3
 pandas == 0.21.0
 
 # iptables.py: 1
-python_iptables == 0.12.0
+#python_iptables == 0.12.0
+git+https://github.com/ldx/python-iptables.git
 
 # scapy3-sniffer.py: 2
 # sniffer.py: 6
@@ -31,7 +32,7 @@ git+https://github.com/invernizzi/scapy-http.git
 # scapy_test.py: 1
 # sniffer.py: 5
 # tcp_http_spoof.py: 1
-scapy_python3 == 0.21
+scapy_python3 == 0.23
 
 # sniffer.py: 7
 #git+https://github.com/tintinweb/scapy-ssl_tls.git

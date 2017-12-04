@@ -9,46 +9,51 @@ from netfilterqueue import NetfilterQueue
 import logging
 from urllib.parse import unquote
 import html
+import click
 
 # Own modules
 from iptables import IpTables
 from exceptions import HTTPPacketException
 from classifier import Classifier
+from redirector import Redirector
 
 
 class Sniffer:
 
-    def __init__(self):
+    def __init__(self, destination, port):
         """
         Initialise iptables rules, netfilterqueue and the classifier.
         """
         self.http_request = scapy_http.http.HTTPRequest
-        self.chains = self.set_iptables_rules()
+        self.iptables = IpTables()
+        ports = port.split(',')
+        self.chains, self.num_rules = self.set_iptables_rules(destination, ports)
         self.nfqueue = NetfilterQueue()
         self.classifier = Classifier()
 
-    def set_iptables_rules(self):
+    def set_iptables_rules(self, destination, port):
         """
 
         :return:
         """
-        self.iptables = IpTables()
         output_chain = self.iptables.create_chain("OUTPUT")
         input_chain = self.iptables.create_chain("INPUT")
         forward_chain = self.iptables.create_chain("FORWARD")
-        rules = (IpTables.create_rule(destination_port=p) for p in [80, 443])
+        rules = (IpTables.create_rule(destination=destination, destination_port=p) for p in port)
+        num_rules = 0
         for rule in rules:
             IpTables.create_target(rule, "NFQUEUE")
             IpTables.insert_rule(output_chain, rule)
             IpTables.insert_rule(input_chain, rule)
             IpTables.insert_rule(forward_chain, rule)
+            num_rules += 1
         self.iptables.table.commit()
         self.iptables.table.refresh()
         chains = (input_chain, output_chain, forward_chain)
 
         logging.info("iptables rules added")
 
-        return chains
+        return chains, num_rules
 
     def analyze_packet(self, packet):
         """
@@ -60,17 +65,18 @@ class Sniffer:
         pkt = scapy.all.IP(payload)
         if pkt.haslayer(self.http_request):
             http_request = pkt.getlayer(self.http_request)
+            host = http_request.Host
             method = http_request.Method
             if method == b"GET":
                 path = http_request.Path
                 logging.debug("%s request path found: %s", method, path)
-                return [html.escape(unquote(unquote(path.decode("utf-8"))))]
+                return host, [html.escape(unquote(unquote(path.decode("utf-8"))))]
             else:
                 raw = http_request.lastlayer()
                 try:
                     load = raw.load
                     logging.debug("%s request payload found: %s", method, load)
-                    return [html.escape(unquote(unquote(load.decode("utf-8"))))]
+                    return host, [html.escape(unquote(unquote(load.decode("utf-8"))))]
                 except AttributeError:
                     logging.exception("No payload in raw packet")
                     raise HTTPPacketException
@@ -84,11 +90,12 @@ class Sniffer:
         :return:
         """
         try:
-            data = self.analyze_packet(packet)
-            category = self.classifier.classify(data)
+            host, payload = self.analyze_packet(packet)
+            category = self.classifier.classify(payload)
             if category:
                 logging.info("XSS payload detected ; packet dropped")
                 packet.drop()
+                Redirector()(target_host=(host+payload[0]), redirect_url=host)
             else:
                 logging.debug("Packet accepted")
                 packet.accept()
@@ -116,8 +123,8 @@ class Sniffer:
         self.nfqueue.unbind()
         logging.info("Deleting iptables rules")
         for chain in self.chains:
-            logging.info("Deleting rules from chain %s", chain)
-            for rule in chain.rules:
+            logging.info("Deleting rules from chain %s", chain.name)
+            for rule in self.iptables.get_rules(self.iptables.table, chain, self.num_rules):
                 logging.debug("Deleting rule %s", rule)
                 chain.delete_rule(rule)
         self.iptables.table.commit()
@@ -125,15 +132,30 @@ class Sniffer:
         logging.info("Deleted iptables rules")
 
 
-if __name__ == "__main__":
+@click.group(invoke_without_command=True)
+@click.option("--destination", default="127.0.0.1", help="Destination IP for iptables rule. Defaults to localhost.")
+@click.option("--port", default="80", help="Port(s) to listen on. "
+                                           "Multiple ports should be given as a comma separated list.")
+@click.pass_context
+def cli(ctx, destination, port):
+    ctx.obj = Sniffer(destination, port)
 
-    logging.basicConfig(format="%(asctime)s - %(name)s - %(message)s",
-                        filename="server.log",
-                        level=logging.DEBUG)
 
-    sniffer = Sniffer()
+@cli.command()
+@click.pass_obj
+def run(sniffer):
+    """
 
+    :return:
+    """
     try:
         sniffer.start()
     except KeyboardInterrupt:
         sniffer.stop()
+
+
+if __name__ == '__main__':
+    logging.basicConfig(format="%(asctime)s - %(name)s - %(message)s",
+                        filename="server.log",
+                        level=logging.DEBUG)
+    cli()

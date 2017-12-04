@@ -58,3 +58,20 @@ class IpTables:
         """
         chain.delete_rule(rule)
 
+    @staticmethod
+    def get_rules(table, chain, num_rules):
+        """
+
+        :param table:
+        :param chain:
+        :param num_rules:
+        :return: entries:
+        """
+        entries = []
+        entry = table.first_rule(chain.name)
+        rule_num = 0
+        while entry and rule_num < num_rules:
+            entries.append(entry)
+            entry = table.next_rule(entry)
+            rule_num += 1
+        return [table.create_rule(e, chain) for e in entries]
