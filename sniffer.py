@@ -1,10 +1,12 @@
 # code adapted from https://stackoverflow.com/questions/27551367/http-get-packet-sniffer-in-scapy
 # https://gist.github.com/eXenon/85a3eab09fefbb3bee5d
 # https://gist.github.com/eXenon/85a3eab09fefbb3bee5d#file-scapy_bridge-py-L19
+import uuid
 
+import arrow
+import couchdb
 import scapy.all
 import scapy_http.http
-#import scapy_ssl_tls.ssl_tls
 from netfilterqueue import NetfilterQueue
 import logging
 from urllib.parse import unquote
@@ -30,6 +32,14 @@ class Sniffer:
         self.chains, self.num_rules = self.set_iptables_rules(destination, ports)
         self.nfqueue = NetfilterQueue()
         self.classifier = Classifier()
+        self.couch = couchdb.Server("http://sigmund:re9ZP4zq@localhost:5984/")
+        dbname = "xssprevent"
+        try:
+            self.couch.create(dbname)
+            self.database = self.couch[dbname]
+            logging.info("Database %s initialised.", dbname)
+        except couchdb.PreconditionFailed:
+            logging.info("Database %s already exists; do nothing.", dbname)
 
     def set_iptables_rules(self, destination, port):
         """
@@ -54,6 +64,15 @@ class Sniffer:
         logging.info("iptables rules added")
 
         return chains, num_rules
+
+    def store_xss_vector(self, payload, category):
+        """
+
+        :param category:
+        :param payload:
+        """
+        doc_id = uuid.uuid4().hex
+        self.database[doc_id] = {'timeid': arrow.now().timestamp, 'payload': payload, 'xss_vector': category}
 
     def analyze_packet(self, packet):
         """
@@ -156,6 +175,6 @@ def run(sniffer):
 
 if __name__ == '__main__':
     logging.basicConfig(format="%(asctime)s - %(name)s - %(message)s",
-                        filename="server.log",
+                        filename="logs/server.log",
                         level=logging.DEBUG)
     cli()
