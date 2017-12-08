@@ -1,7 +1,7 @@
 FROM python:3
 
 RUN apt-get update
-RUN apt-get -y install libnfnetlink0 libnfnetlink-dev
+RUN apt-get -y install libnfnetlink0 libnfnetlink-dev libnetfilter-queue1 libnetfilter-queue-dev
 
 WORKDIR /home/sigmund/Documents/HDCBIBM/final-project/code/
 
