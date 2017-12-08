@@ -10,4 +10,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 
 COPY . .
 
-CMD [ "python", "sniffer.py --destination 127.0.0.1 --port 80", "run" ]
+CMD [ "python", "./sniffer.py --destination 127.0.0.1 --port 80", "run" ]
