@@ -158,19 +158,23 @@ class Sniffer:
 @click.pass_context
 def cli(ctx, destination, port):
     ctx.obj = Sniffer(destination, port)
-
-
-@cli.command()
-@click.pass_obj
-def run(sniffer):
-    """
-
-    :return:
-    """
     try:
-        sniffer.start()
+        ctx.obj.start()
     except KeyboardInterrupt:
-        sniffer.stop()
+        ctx.obj.stop()
+
+
+# @cli.command()
+# @click.pass_obj
+# def run(sniffer):
+#     """
+#
+#     :return:
+#     """
+#     try:
+#         sniffer.start()
+#     except KeyboardInterrupt:
+#         sniffer.stop()
 
 
 if __name__ == '__main__':
