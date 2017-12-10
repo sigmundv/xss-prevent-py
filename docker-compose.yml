@@ -4,6 +4,9 @@ services:
     couchdb:
         image: couchdb:latest
         restart: always
+        environment:
+            - COUCHDB_USER=sigmund
+            - COUCHDB_PASSWORD=re9ZP4zq
     xssprevent-test:
         build:
             context: .
@@ -11,4 +14,15 @@ services:
         image: xssprevent-test:latest
         depends_on:
             - couchdb
+        environment:
+            - DESTINATION=127.0.0.1
+            - PORT=80
+        cap_add:
+            - NET_ADMIN
+            - NET_RAW          
+    dwva:
+        image: vulnerables/web-dvwa:latest
+        restart: always
+        depends_on:
+            - xssprevent-test
 
