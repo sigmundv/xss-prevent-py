@@ -19,6 +19,9 @@ services:
         environment:
             - DESTINATION=127.0.0.1
             - PORT=80
+            - COUCHDB_HOST=couchdb
+            - COUCHDB_USER=sigmund
+            - COUCHDB_PASSWORD=re9ZP4zq
         cap_add:
             - NET_ADMIN
             - NET_RAW          

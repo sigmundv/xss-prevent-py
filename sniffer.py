@@ -1,8 +1,9 @@
 # code adapted from https://stackoverflow.com/questions/27551367/http-get-packet-sniffer-in-scapy
 # https://gist.github.com/eXenon/85a3eab09fefbb3bee5d
 # https://gist.github.com/eXenon/85a3eab09fefbb3bee5d#file-scapy_bridge-py-L19
-import uuid
 
+import uuid
+import os
 import arrow
 import couchdb
 import scapy.all
@@ -32,7 +33,11 @@ class Sniffer:
         self.chains, self.num_rules = self.set_iptables_rules(destination, ports)
         self.nfqueue = NetfilterQueue()
         self.classifier = Classifier()
-        self.couch = couchdb.Server("http://sigmund:re9ZP4zq@couchdb:5984/")
+        db_host = os.environ["COUCHDB_HOST"]
+        db_user = os.environ["COUCHDB_USER"]
+        db_password = os.environ["COUCHDB_PASSWORD"]
+        self.couch = couchdb.Server("http://{user}:{password}@{host}:5984/".format(
+                                        user=db_user, password=db_password, host=db_host))
         dbname = "xssprevent"
         try:
             self.couch.create(dbname)
