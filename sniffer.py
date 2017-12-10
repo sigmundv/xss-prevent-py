@@ -39,9 +39,14 @@ class Sniffer:
         self.couch = couchdb.Server("http://{user}:{password}@{host}:5984/".format(
                                         user=db_user, password=db_password, host=db_host))
         # Do initial setup
-        self.couch.create("_users")
-        self.couch.create("_replicator")
-        self.couch.create("_global_changes")
+        try:
+            self.couch.create("_users")
+            self.couch.create("_replicator")
+            self.couch.create("_global_changes")
+        except couchdb.PreconditionFailed:
+            logging.info("Databases %s already exists; do nothing.",
+                            ("_users", "_replicator", "_global_changed"))
+
         # Setup database for application
         dbname = "xssprevent"
         try:
