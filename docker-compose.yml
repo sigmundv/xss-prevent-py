@@ -1,0 +1,14 @@
+version: "3"
+
+services:
+    couchdb:
+        image: couchdb:latest
+        restart: always
+    xssprevent-test:
+        build:
+            context: .
+            dockerfile: Dockerfile
+        image: xssprevent-test:latest
+        depends_on:
+            - couchdb
+
