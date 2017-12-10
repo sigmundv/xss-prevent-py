@@ -32,7 +32,7 @@ class Sniffer:
         self.chains, self.num_rules = self.set_iptables_rules(destination, ports)
         self.nfqueue = NetfilterQueue()
         self.classifier = Classifier()
-        self.couch = couchdb.Server("http://sigmund:re9ZP4zq@localhost:5984/")
+        self.couch = couchdb.Server("http://sigmund:re9ZP4zq@couchdb:5984/")
         dbname = "xssprevent"
         try:
             self.couch.create(dbname)

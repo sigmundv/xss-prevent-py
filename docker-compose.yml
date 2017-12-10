@@ -7,6 +7,8 @@ services:
         environment:
             - COUCHDB_USER=sigmund
             - COUCHDB_PASSWORD=re9ZP4zq
+        volumes:
+            - data: /usr/local/var/lib/couchdb
     xssprevent-test:
         build:
             context: .
