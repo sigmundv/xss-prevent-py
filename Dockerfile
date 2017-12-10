@@ -8,7 +8,7 @@ WORKDIR xss-prevent/
 COPY requirements.txt ./
 RUN pip install -r requirements.txt
 
-COPY ./* ./
+COPY ./ ./
 RUN ls -la
 
 CMD python ./sniffer.py --destination $DESTINATION --port $PORT

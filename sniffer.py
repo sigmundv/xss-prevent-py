@@ -38,6 +38,11 @@ class Sniffer:
         db_password = os.environ["COUCHDB_PASSWORD"]
         self.couch = couchdb.Server("http://{user}:{password}@{host}:5984/".format(
                                         user=db_user, password=db_password, host=db_host))
+        # Do initial setup
+        self.couch.create("_users")
+        self.couch.create("_replicator")
+        self.couch.create("_global_changes")
+        # Setup database for application
         dbname = "xssprevent"
         try:
             self.couch.create(dbname)
