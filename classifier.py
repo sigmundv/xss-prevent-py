@@ -1,4 +1,5 @@
 import pickle
+import h5py
 import logging
 import numpy as np
 from keras.models import load_model
@@ -10,9 +11,9 @@ class Classifier:
         """
         Load CountVectorizer and classifier
         """
-        with open("finalized_vectorizer.sav", "rb") as saved_vectorizer:
+        with open("models/finalized_vectorizer.sav", "rb") as saved_vectorizer:
             self.vectorizer = pickle.load(saved_vectorizer)
-        self.classifier = load_model("finalized_classifier.h5")
+        self.classifier = load_model("models/finalized_classifier.h5")
         logging.debug("CountVectorizer and classifier loaded")
 
     def classify(self, data):
