@@ -46,20 +46,21 @@ class Sniffer:
 
         :return:
         """
-        output_chain = self.iptables.create_chain("OUTPUT")
-        input_chain = self.iptables.create_chain("INPUT")
-        forward_chain = self.iptables.create_chain("FORWARD")
+        prerouting_chain = self.iptables.create_chain("PREROUTING")
+        # input_chain = self.iptables.create_chain("INPUT")
+        # forward_chain = self.iptables.create_chain("FORWARD")
         rules = (IpTables.create_rule(destination=destination, destination_port=p) for p in port)
         num_rules = 0
         for rule in rules:
             IpTables.create_target(rule, "NFQUEUE")
-            IpTables.insert_rule(output_chain, rule)
-            IpTables.insert_rule(input_chain, rule)
-            IpTables.insert_rule(forward_chain, rule)
+            IpTables.insert_rule(prerouting_chain, rule)
+            # IpTables.insert_rule(input_chain, rule)
+            # IpTables.insert_rule(forward_chain, rule)
             num_rules += 1
         self.iptables.table.commit()
         self.iptables.table.refresh()
-        chains = (input_chain, output_chain, forward_chain)
+        # chains = (input_chain, output_chain, forward_chain)
+        chains = (prerouting_chain,)
 
         logging.info("iptables rules added")
 
@@ -110,6 +111,7 @@ class Sniffer:
         """
         try:
             host, payload = self.analyze_packet(packet)
+            logging.DEBUG("Host is: %s ; payload is: %s", str(host), payload)
             category = self.classifier.classify(payload)
             if category:
                 logging.info("XSS payload detected ; packet dropped")
@@ -146,7 +148,9 @@ class Sniffer:
             for rule in self.iptables.get_rules(self.iptables.table, chain, self.num_rules):
                 logging.debug("Deleting rule %s", rule)
                 chain.delete_rule(rule)
+        self.iptables.table.refresh()
         self.iptables.table.commit()
+        self.iptables.table.refresh()
         self.iptables.table.close()
         logging.info("Deleted iptables rules")
 
