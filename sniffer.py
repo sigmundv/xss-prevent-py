@@ -32,7 +32,7 @@ class Sniffer:
         self.http_request = scapy_http.http.HTTPRequest
         self.iptables = IpTables()
         ports = port.split(',')
-        self.chain, self.num_rules = self.set_iptables_rules(destination, ports)
+        self.chain = self.set_iptables_rules(destination, ports)
         self.nfqueue = NetfilterQueue()
         self.classifier = Classifier()
         db_host = os.environ["COUCHDB_HOST"]
@@ -65,24 +65,20 @@ class Sniffer:
         """
         prerouting_chain = self.iptables.create_chain("PREROUTING")
         rules = (IpTables.create_rule(destination=destination, destination_port=p) for p in port)
-        num_rules = 0
         for rule in rules:
             IpTables.create_target(rule, "NFQUEUE")
             IpTables.insert_rule(prerouting_chain, rule)
-            num_rules += 1
-#        self.iptables.table.commit()
-#        self.iptables.table.refresh()
-#        chains = (prerouting_chain,)
-
         logging.info("iptables rules added")
 
-        return prerouting_chain, num_rules
+        return prerouting_chain
 
     def store_xss_vector(self, source, path, payload, category):
         """
 
-        :param category:
-        :param payload:
+        :param source: The IP where the attack originated from.
+        :param path: The path of the page where the attack was performed.
+        :param payload: The payload that was used in the attack, e.g. a pice of JavaScript.
+        :param category: The category determined by the classifier; will always be one.
         """
         doc_id = uuid.uuid4().hex
         self.database[doc_id] = {'timeid': arrow.now().timestamp,

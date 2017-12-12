@@ -46,8 +46,10 @@ def preprocess_data(filename):
 def vectorize_data(data):
     """
 
-    :param data:
-    :return:
+    :param data: The data to vectorize; it should be a list of strings, one per line.
+    :return: The CountVectorizer, which we need later in order to transform incoming requests to a feature vector
+            The feature matrix based on the given vocabulary.
+
     """
     vocabulary = open(vocabulary_file, 'r').read().splitlines()
 
@@ -79,8 +81,8 @@ def store_data(data, target, filename):
 def train_data(fname):
     """
 
-    :param fname:
-    :return:
+    :param fname: Filename that we stored the feature matrix to.
+    :return: The model trained by Keras.
     """
     dataset = np.loadtxt(fname, delimiter=',')
     nrows, ncols = dataset.shape

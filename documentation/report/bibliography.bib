@@ -1,14 +1,169 @@
-@Article{khan,
-
+@article{khan,
+    author={Nayeem Khan and Johari Abdullah and Adnan Shahid Khan},
+    title={Defending Malicious Script Attacks Using Machine Learning Classifiers},
+    journal={Hindawi Wireless Communications and Mobile Computing},
+    year=2017,
 }
-N Khan et al. Defending Malicious Script Attacks Using Machine Learning Classifiers, Hindawi Wireless Communications and Mobile Computing, Volume 2017
-[2] Internet Security Threat Report. Symantec, Vol. 21, April 2016.
-[3] OWASP Top Ten Project, https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project
-[4] A. E. Nunan, E. Souto, E. M. dos Santos, and E. Feitosa. Automatic classification of cross-site scripting in web pages using document-based and URL-based features. Proceedings of the 17th IEEE Symposium on Computers and Communication (ISCC ’12), pp. 702–707, IEEE, Cappadocia, Turkey, July 2012.
-[5] K. Schütt, M. Kloft, A. Bikadorov, and K. Rieck. Early detection of malicious behavior in javascript code. Proceedings of the 5th ACM Workshop on Artificial Intelligence and Security (AISec ’12), pp. 15–24, Raleigh, NC, USA, October 2012.
-[6] K. Rieck, T. Krueger, and A. Dewald. Cujo: efficient detection and prevention of drive-by-download attacks. Proceedings of the 26th Annual Computer Security Applications Conference (ACSAC ’10), pp. 31–39, Austin, Tex, USA, December 2010.
-[7] C. Curtsinger, B. Livshits, B. Zorn, and C. Seifert. ZOZZLE: fast and precise in-browser JavaScript malware detection. Proceedings of the 20th USENIX Conference on Security (SEC ’11), San Francisco, Calif, USA, 2011.
-[8] M. Fraiwan, R. Al-Salman, N. Khasawneh, and S. Conrad. Analysis and identification of malicious JavaScript code. Information Security Journal, vol. 21, no. 1, pp. 1–11, 2012.
-[9] Carmen Torrano Giménez, Alejandro Pérez Villegas, Gonzalo Álvarez Marañón. HTTP Dataset CSIC 2010, http://www.isi.csic.es/dataset/
-[10] scikit-learn – Machine Learning in Python, http://scikit-learn.org/stable/
-[11] Scapy: the python-based interactive packet manipulation program & library, https://github.com/secdev/scapy
+@techreport{symantec,
+    author = {Symantec},
+    title = {Internet Security Threat Report},
+    volume = {21},
+    month = {April},
+    year = {2016},
+}
+@misc{owasp,
+    author = {OWASP.org},
+    title = {OWASP Top Ten Project},
+    url = {https://www.owasp.org/index.php/Category:OWASP_Top_Ten_Project},
+    year = {2017},
+    note = {Accessed: 2017-12-12},
+}
+@inproceedings{nunan,
+    author = {A. E. Nunan and E. Souto and E. M. dos Santos and E. Feitosa},
+    title = {Automatic classification of cross-site scripting in web pages using document-based and URL-based features},
+    booktitle = {Proceedings of the 17th IEEE Symposium on Computers and Communication (ISCC ’12)},
+    pages = {702-707},
+    location = {Cappadocia, Turkey},
+    month = {July},
+    year = {2012},
+}
+@inproceedings{kloft,
+    author = {K. Sch\"{u}tt and M. Kloft and A. Bikadorov and K. Rieck},
+    title = {Early detection of malicious behavior in javascript code},
+    booktitle = {Proceedings of the 5th ACM Workshop on Artificial Intelligence and Security (AISec ’12)},
+    pages = {15-24},
+    location = {Raleigh, NC, USA},
+    month = {October},
+    year = {2012},
+}
+@inproceedings{rieck,
+    author = {K. Rieck and T. Krueger and A. Dewald},
+    title = {Cujo: efficient detection and prevention of drive-by-download attacks},
+    booktitle = {Proceedings of the 26th Annual Computer Security Applications Conference (ACSAC ’10)},
+    pages = {31-39},
+    location = {Austin, TX, USA},
+    month = {December},
+    year = {2010},
+}
+@inproceedings{curtsinger,
+    author = {C. Curtsinger and B. Livshits and B. Zorn and C. Seifert},
+    title = {ZOZZLE: fast and precise in-browser JavaScript malware detection},
+    booktitle = {Proceedings of the 20th USENIX Conference on Security (SEC ’11)},
+    location = {San Francisco, CA, USA},
+    year = {2011},
+}
+@article{fraiwan,
+    author = {M. Fraiwan and R. Al-Salman and N. Khasawneh and S. Conrad},
+    title = {Analysis and identification of malicious JavaScript code},
+    journal = {Information Security Journal},
+    pages = {1-11},
+    volume = {21},
+    number = {1},
+    year = {2012},
+}
+@misc{csic2010,
+    title = {HTTP Dataset CSIC 2010},
+    author = {Carmen Torrano Gim\'{e}nez and Alejandro P\'{e}rez Villegas and Gonzalo \'{A}lvarez Mara\~{n}\'{o}n},
+    url = {http://www.isi.csic.es/dataset/},
+    note = {Accessed: 2017-12-12},
+}
+@article{scikit-learn,
+ title={Scikit-learn: Machine Learning in {P}ython},
+ author={Pedregosa, F. and Varoquaux, G. and Gramfort, A. and Michel, V.
+         and Thirion, B. and Grisel, O. and Blondel, M. and Prettenhofer, P.
+         and Weiss, R. and Dubourg, V. and Vanderplas, J. and Passos, A. and
+         Cournapeau, D. and Brucher, M. and Perrot, M. and Duchesnay, E.},
+ journal={Journal of Machine Learning Research},
+ volume={12},
+ pages={2825--2830},
+ year={2011}
+}
+@inproceedings{sklearn_api,
+  author    = {Lars Buitinck and Gilles Louppe and Mathieu Blondel and
+               Fabian Pedregosa and Andreas Mueller and Olivier Grisel and
+               Vlad Niculae and Peter Prettenhofer and Alexandre Gramfort
+               and Jaques Grobler and Robert Layton and Jake VanderPlas and
+               Arnaud Joly and Brian Holt and Ga{\"{e}}l Varoquaux},
+  title     = {{API} design for machine learning software: experiences from the scikit-learn
+               project},
+  booktitle = {ECML PKDD Workshop: Languages for Data Mining and Machine Learning},
+  year      = {2013},
+  pages = {108--122},
+}
+@misc{scapy,
+    author = {Biondi, Phillipe},
+    title = {{Scapy}},
+    year = 2002,
+    url = {http://www.secdev.org/projects/scapy/},
+    note = {Accessed: 2017-12-12},
+}
+@misc{keras,
+    title={Keras},
+    author={Chollet, Fran\c{c}ois and others},
+    year={2015},
+    publisher={GitHub},
+    url={https://github.com/fchollet/keras},
+    note = {Accessed: 2017-12-12},
+}
+@misc{tensorflow,
+    title={ {TensorFlow}: Large-Scale Machine Learning on Heterogeneous Systems},
+    url={https://www.tensorflow.org/},
+    note={Software available from tensorflow.org},
+    author={
+    Mart\'{\i}n~Abadi and
+    Ashish~Agarwal and
+    Paul~Barham and
+    Eugene~Brevdo and
+    Zhifeng~Chen and
+    Craig~Citro and
+    Greg~S.~Corrado and
+    Andy~Davis and
+    Jeffrey~Dean and
+    Matthieu~Devin and
+    Sanjay~Ghemawat and
+    Ian~Goodfellow and
+    Andrew~Harp and
+    Geoffrey~Irving and
+    Michael~Isard and
+    Yangqing~Jia and
+    Rafal~Jozefowicz and
+    Lukasz~Kaiser and
+    Manjunath~Kudlur and
+    Josh~Levenberg and
+    Dan~Man\'{e} and
+    Rajat~Monga and
+    Sherry~Moore and
+    Derek~Murray and
+    Chris~Olah and
+    Mike~Schuster and
+    Jonathon~Shlens and
+    Benoit~Steiner and
+    Ilya~Sutskever and
+    Kunal~Talwar and
+    Paul~Tucker and
+    Vincent~Vanhoucke and
+    Vijay~Vasudevan and
+    Fernanda~Vi\'{e}gas and
+    Oriol~Vinyals and
+    Pete~Warden and
+    Martin~Wattenberg and
+    Martin~Wicke and
+    Yuan~Yu and
+    Xiaoqiang~Zheng},
+    year={2015},
+    note = {Accessed: 2017-12-12},
+}
+@misc{pastebin,
+    author = {Various},
+    howpublished = {Can be accessed at: \url{https://pastebin.com/u6FY1xDA}, \url{https://pastebin.com/48WdZR6L},
+                    \url{https://pastebin.com/sxxU6npD}, \url{https://pastebin.com/aiV1aP3R},
+                    \url{https://pastebin.com/rY7mi5dT}},
+    note = {Accessed: 2017-12-12},
+}
+@misc{scapy-http,
+    author = {Invernizzi, Luca},
+    title = {Support for HTTP in Scapy},
+    year = {2014},
+    url = {https://github.com/invernizzi/scapy-http},
+    note = {Accessed: 2017-12-12},
+}
