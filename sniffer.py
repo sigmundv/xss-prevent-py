@@ -5,6 +5,7 @@
 
 import uuid
 import os
+import gc
 import arrow
 import couchdb
 import scapy.all
@@ -174,6 +175,7 @@ def cli(ctx, destination, port):
     try:
         ctx.obj.start()
     except KeyboardInterrupt:
+        gc.collect()
         ctx.obj.stop()
 
 
