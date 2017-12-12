@@ -6,6 +6,8 @@ class Redirector(AnsweringMachine):
     function_name = "http_redirector"
     filter = "tcp port {port}".format(port=80)
 
+    conf.L3socket = L3RawSocket
+
     def parse_options(self, target_host="www.google.com", redirect_url='http://math.fo/'):
         self.target_host = target_host
         self.redirect_url = redirect_url
@@ -27,8 +29,3 @@ class Redirector(AnsweringMachine):
             Raw(load=http_payload)
 
         return resp
-
-
-if __name__ == '__main__':
-    conf.L3socket = L3RawSocket
-    Redirector()(target_host="www.dr.dk", redirect_url="http://math.fo")
