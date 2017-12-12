@@ -82,8 +82,8 @@ class Sniffer:
         """
         doc_id = uuid.uuid4().hex
         self.database[doc_id] = {'timeid': arrow.now().timestamp,
-                                    'source': source, 'path': path,
-                                    'payload': payload, 'xss_vector': category}
+                                 'source': source, 'path': path,
+                                 'payload': payload, 'xss_vector': category}
 
     def analyze_packet(self, packet):
         """
