@@ -26,12 +26,12 @@ services:
             - NET_ADMIN
             - NET_RAW          
         ports:
-            - 8080:80
-    dwva:
-        image: vulnerables/web-dvwa:latest
-        restart: always
-        depends_on:
-            - xssprevent-test
-        ports:
             - 80:80
+#    dwva:
+#        image: infoslack/dvwa:latest
+#        restart: always
+#        depends_on:
+#            - xssprevent-test
+#        ports:
+#            - 8080:80
 

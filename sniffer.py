@@ -1,6 +1,7 @@
 # code adapted from https://stackoverflow.com/questions/27551367/http-get-packet-sniffer-in-scapy
 # https://gist.github.com/eXenon/85a3eab09fefbb3bee5d
 # https://gist.github.com/eXenon/85a3eab09fefbb3bee5d#file-scapy_bridge-py-L19
+# https://stackoverflow.com/questions/8440709/stripping-payload-from-a-tcpdump
 
 import uuid
 import os
@@ -30,7 +31,7 @@ class Sniffer:
         self.http_request = scapy_http.http.HTTPRequest
         self.iptables = IpTables()
         ports = port.split(',')
-        self.chains, self.num_rules = self.set_iptables_rules(destination, ports)
+        self.chain, self.num_rules = self.set_iptables_rules(destination, ports)
         self.nfqueue = NetfilterQueue()
         self.classifier = Classifier()
         db_host = os.environ["COUCHDB_HOST"]
@@ -44,17 +45,17 @@ class Sniffer:
             self.couch.create("_replicator")
             self.couch.create("_global_changes")
         except couchdb.PreconditionFailed:
-            logging.info("Databases %s already exists; do nothing.",
+            logging.info("Databases %s already exist; do nothing.",
                             ("_users", "_replicator", "_global_changed"))
 
         # Setup database for application
         dbname = "xssprevent"
         try:
             self.couch.create(dbname)
-            self.database = self.couch[dbname]
             logging.info("Database %s initialised.", dbname)
         except couchdb.PreconditionFailed:
-            logging.info("Database %s already exists; do nothing.", dbname)
+            logging.info("Database %s already exists; connect to it.", dbname)
+        self.database = self.couch[dbname]
 
     def set_iptables_rules(self, destination, port):
         """
@@ -62,33 +63,30 @@ class Sniffer:
         :return:
         """
         prerouting_chain = self.iptables.create_chain("PREROUTING")
-        # input_chain = self.iptables.create_chain("INPUT")
-        # forward_chain = self.iptables.create_chain("FORWARD")
         rules = (IpTables.create_rule(destination=destination, destination_port=p) for p in port)
         num_rules = 0
         for rule in rules:
             IpTables.create_target(rule, "NFQUEUE")
             IpTables.insert_rule(prerouting_chain, rule)
-            # IpTables.insert_rule(input_chain, rule)
-            # IpTables.insert_rule(forward_chain, rule)
             num_rules += 1
-        self.iptables.table.commit()
-        self.iptables.table.refresh()
-        # chains = (input_chain, output_chain, forward_chain)
-        chains = (prerouting_chain,)
+#        self.iptables.table.commit()
+#        self.iptables.table.refresh()
+#        chains = (prerouting_chain,)
 
         logging.info("iptables rules added")
 
-        return chains, num_rules
+        return prerouting_chain, num_rules
 
-    def store_xss_vector(self, payload, category):
+    def store_xss_vector(self, source, path, payload, category):
         """
 
         :param category:
         :param payload:
         """
         doc_id = uuid.uuid4().hex
-        self.database[doc_id] = {'timeid': arrow.now().timestamp, 'payload': payload, 'xss_vector': category}
+        self.database[doc_id] = {'timeid': arrow.now().timestamp,
+                                    'source': source, 'path': path,
+                                    'payload': payload, 'xss_vector': category}
 
     def analyze_packet(self, packet):
         """
@@ -98,20 +96,26 @@ class Sniffer:
         """
         payload = packet.get_payload()
         pkt = scapy.all.IP(payload)
+        source = pkt.src
         if pkt.haslayer(self.http_request):
+
             http_request = pkt.getlayer(self.http_request)
             host = http_request.Host
             method = http_request.Method
+            path = http_request.Path
+
             if method == b"GET":
-                path = http_request.Path
+                path_split = path.split(b"?")
+                path = path_split[0]
+                load = b"?".join(path_split[1:])
                 logging.debug("%s request path found: %s", method, path)
-                return host, [html.escape(unquote(unquote(path.decode("utf-8"))))]
+                return source, host, path.decode("utf-8"), [html.escape(unquote(unquote(load.decode("utf-8"))))]
             else:
                 raw = http_request.lastlayer()
                 try:
                     load = raw.load
                     logging.debug("%s request payload found: %s", method, load)
-                    return host, [html.escape(unquote(unquote(load.decode("utf-8"))))]
+                    return source, host, path.decode("utf-8"), [html.escape(unquote(unquote(load.decode("utf-8"))))]
                 except AttributeError:
                     logging.exception("No payload in raw packet")
                     raise HTTPPacketException
@@ -125,13 +129,13 @@ class Sniffer:
         :return:
         """
         try:
-            host, payload = self.analyze_packet(packet)
-            logging.DEBUG("Host is: %s ; payload is: %s", str(host), payload)
+            source, host, path, payload = self.analyze_packet(packet)
+            logging.debug("Host is: %s ; payload is: %s", host, payload)
             category = self.classifier.classify(payload)
             if category:
-                logging.info("XSS payload detected ; packet dropped")
+                logging.info("XSS payload detected ; attack vector stored in DB and packet dropped")
+                self.store_xss_vector(source, path, payload[0], str(category[0][0]))
                 packet.drop()
-                Redirector()(target_host=(host+payload[0]), redirect_url=host)
             else:
                 logging.debug("Packet accepted")
                 packet.accept()
@@ -154,20 +158,10 @@ class Sniffer:
 
         :return:
         """
-        print('unbinding from NFQUEUE')
         logging.info("Unbinding from Netfilter Queue")
         self.nfqueue.unbind()
-        logging.info("Deleting iptables rules")
-        for chain in self.chains:
-            logging.info("Deleting rules from chain %s", chain.name)
-            for rule in self.iptables.get_rules(self.iptables.table, chain, self.num_rules):
-                logging.debug("Deleting rule %s", rule)
-                chain.delete_rule(rule)
-        self.iptables.table.refresh()
-        self.iptables.table.commit()
-        self.iptables.table.refresh()
-        self.iptables.table.close()
-        logging.info("Deleted iptables rules")
+        self.chain.flush()
+        logging.info("Flushed iptables rules")
 
 
 @click.group(invoke_without_command=True)
@@ -181,19 +175,6 @@ def cli(ctx, destination, port):
         ctx.obj.start()
     except KeyboardInterrupt:
         ctx.obj.stop()
-
-
-# @cli.command()
-# @click.pass_obj
-# def run(sniffer):
-#     """
-#
-#     :return:
-#     """
-#     try:
-#         sniffer.start()
-#     except KeyboardInterrupt:
-#         sniffer.stop()
 
 
 if __name__ == '__main__':

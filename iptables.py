@@ -5,7 +5,7 @@ class IpTables:
 
     def __init__(self):
         self.table = iptc.Table(iptc.Table.MANGLE)
-        self.table.autocommit = False
+        #self.table.autocommit = False
 
     def create_chain(self, chain):
         """
