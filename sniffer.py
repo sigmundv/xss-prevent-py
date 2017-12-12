@@ -131,13 +131,13 @@ class Sniffer:
         """
         try:
             source, host, path, payload = self.analyze_packet(packet)
+            pkt = scapy.all.IP(packet.get_payload())
             logging.debug("Host is: %s ; payload is: %s", host, payload)
             category = self.classifier.classify(payload)
             if category:
                 logging.info("XSS payload detected ; attack vector stored in DB and packet dropped")
                 self.store_xss_vector(source, path, payload[0], str(category[0][0]))
-                # packet.drop()
-                Redirector()(target_host="docker.math.fo:8080", redirect_url="docker.math.fo:8080")
+                packet.drop()
             else:
                 logging.debug("Packet accepted")
                 packet.accept()
