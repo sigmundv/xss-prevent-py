@@ -131,7 +131,7 @@ class Sniffer:
         """
         try:
             source, host, path, payload = self.analyze_packet(packet)
-            pkt = scapy.all.IP(packet.get_payload())
+
             logging.debug("Host is: %s ; payload is: %s", host, payload)
             category = self.classifier.classify(payload)
             if category:
