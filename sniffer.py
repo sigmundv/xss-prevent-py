@@ -136,7 +136,8 @@ class Sniffer:
             if category:
                 logging.info("XSS payload detected ; attack vector stored in DB and packet dropped")
                 self.store_xss_vector(source, path, payload[0], str(category[0][0]))
-                packet.drop()
+                # packet.drop()
+                Redirector()(target_host="docker.math.fo:8080", redirect_url="docker.math.fo:8080")
             else:
                 logging.debug("Packet accepted")
                 packet.accept()
