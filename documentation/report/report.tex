@@ -57,7 +57,7 @@
 % \documentclass[10pt,journal,compsoc]{../sty/IEEEtran}
 
 
-
+\usepackage[utf8]{inputenc}
 
 
 % Some very useful LaTeX packages include:
@@ -131,7 +131,7 @@
 \usepackage{listings}
 
 \lstset{
-  basicstyle=\ttfamily,
+  basicstyle=\small\ttfamily,
   columns=fullflexible,
   frame=single,
   breaklines=true,
@@ -489,8 +489,11 @@
 \begin{abstract}
 In this paper we present a system using Machine Learning to prevent XSS attacks on web applications.
     A deep neural network is built using the Keras library in Python and training using the CSIC 2010 dataset
-    and data retrieved from \url{pastebin.org}.
-    It was found that this
+    and data retrieved from \url{pastebin.org}. This neural network is then used to classify incoming HTTP requests
+    according to whether they are XSS attacks or not.
+    It was found that the system we developed blocks most attacks. A test using 25 XSS vectors showed an 84\% success
+    rate, which can be improved upon. The improvement in our case would come from developing better Machine Learning
+    classifiers.
 \end{abstract}
 
 % Note that keywords are not normally used for peerreview papers.
@@ -575,6 +578,14 @@ After that we will describe how we tested our application and give measures for 
 attacks.
 Finally we conclude what effect our intrusion prevention has had, what its strengths and weaknesses, respectively, are,
 and how it can be improved.
+
+The system has been deployed at \url{http://docker.math.fo/}, where two vulnerable web applications have been deployed,
+\url{http://docker.math.fo/dvwa/} and \url{http://docker.math.fo/mutidillae}. If you want to look at the code in order
+to deploy it yourself you can find it along with a \verb|docker-compose.yml| file with necessary dependencies
+for deployment can be found on GitHub at \url{https://github.com/sigmundv/xss-prevent-py}. The web applications are
+running in docker containers, but our system has been deployed on the host server. See Appendix~\ref{appendix:a} for
+more detailed instruction on how to deploy the solution.
+
 
 % You must have at least 2 lines in the paragraph with the drop letter
 % (should never be an issue)
@@ -872,8 +883,7 @@ def vectorize_data(data):
 \end{lstlisting}
 
 
-\begin{lstlisting}[language=Python, caption={The Python function that builds a neural network and
-                                                trains it using the feature matrix},
+\begin{lstlisting}[language=Python, caption={The Python function that builds a neural network and trains it using the feature matrix},
                     label={lst:train}]
 def train_data(fname):
     """
@@ -942,7 +952,8 @@ def store_xss_vector(self, source, path, payload, category):
 
 Now when we have seen a description of the architecture it is helpful to illustrate the same in a diagra.
 See Figure~\ref{fig:architecture} for this diagram and Figure~\ref{fig:flowchart} for a flowchart showing
-the flow in the system.
+the flow in the system. Additionally, see Figure~\ref{fig:classes} for a class diagram showing the
+classes present in the system.
 
 \begin{figure}
     \centering
@@ -954,17 +965,151 @@ the flow in the system.
 \begin{figure}
     \centering
         \includegraphics[width=\linewidth]{system-flowchart}
-    \caption{Diagram showing the components of the Intrusion Prevention System and how they are interconnected.}
+    \caption{Flowchart showing the flow of a packet through the Intrusion Prevention System.}
     \label{fig:flowchart}
 \end{figure}
 
+\begin{figure}
+    \centering
+        \includegraphics[width=\linewidth]{class-diagram}
+    \caption{Class diagram showing the classes being used in our application..}
+    \label{fig:classes}
+\end{figure}
+
+To round off this section we can take a look at the Python functions that do the bulk of the work, the \verb|analyze_packet|
+and \verb|classify_packet| functions, respectively. The former (see Listing~\ref{lst:analyze}) strips out the payload from the
+incoming packet and returns it to the latter function (see Listing~\ref{lst:classify}), which passes it to the classifier, and then accepts or drops
+the packet depending on the verdict returned by the classifier.
 
 
+\begin{lstlisting}[language=Python, caption={The analyze\_packet function, which strips out the payloyad from a packet.},
+                                                label={lst:analyze}]
+    def analyze_packet(self, packet):
+        """
 
-\section{Testing}
+        :param packet:
+        :return:
+        """
+        payload = packet.get_payload()
+        pkt = scapy.all.IP(payload)
+        source = pkt.src
+        if pkt.haslayer(self.http_request):
+
+            http_request = pkt.getlayer(self.http_request)
+            host = http_request.Host
+            method = http_request.Method
+            path = http_request.Path
+
+            if method == b"GET":
+                path_split = path.split(b"?")
+                path = path_split[0]
+                load = b"?".join(path_split[1:])
+                logging.debug("%s request path found: %s", method, path)
+                return source, host, path.decode("utf-8"), [html.escape(unquote(unquote(load.decode("utf-8"))))]
+            else:
+                raw = http_request.lastlayer()
+                try:
+                    load = raw.load
+                    logging.debug("%s request payload found: %s", method, load)
+                    return source, host, path.decode("utf-8"), [html.escape(unquote(unquote(load.decode("utf-8"))))]
+                except AttributeError:
+                    logging.exception("No payload in raw packet")
+                    raise HTTPPacketException
+        else:
+            raise HTTPPacketException
+
+\end{lstlisting}
+
+
+\begin{lstlisting}[language=Python, caption={The classify\_packet function, which passes a packet payload to the
+                                                classifier and drops or accept the packet based on the
+                                                returned verdict.}, label={lst:classify}]
+    def classify_packet(self, packet):
+        """
+
+        :param packet:
+        :return:
+        """
+        try:
+            source, host, path, payload = self.analyze_packet(packet)
+
+            logging.debug("Host is: %s ; payload is: %s", host, payload)
+            category = self.classifier.classify(payload)
+            if category:
+                logging.info("XSS payload detected ; attack vector stored in DB and packet dropped")
+                self.store_xss_vector(source, path, payload[0], str(category[0][0]))
+                packet.drop()
+            else:
+                logging.debug("Packet accepted")
+                packet.accept()
+        except HTTPPacketException:
+            packet.accept()
+
+\end{lstlisting}
+
+
+\section{Evaluation}
+
+Here I have decided to do a visual evaluation showing the injection of some XSS vectors into a text field in the
+vulnerable web application \emph{mutillidae}. We'll be using the path \url{mutillidae/index.php?page=dns-lookup.php} to
+test on. The video showing this visual testing can be found on GitHub together with the code in a subdirectory called
+\verb|evaluation|. The link can be found in the Introduction, Section~\ref{sec:introduction}.
+
+You will find two videos in the mentioned subdirectory, one showing the testing of reflected XSS attacks and one
+showing the testing of persistent XSS attacks.  The filenames will indicate which is which. For the small sample of
+attacks we test in the video our system blocked all of them.
+
+We planned to do automatic testing using the tool XSSer~\citep*{xsser} in order to evaluate the success rate of our Intrusion
+Prevention System, but there were issues getting XSSer to evaluate the performance correctly, so we have ended up
+taking a small sample of the XSS vectors that XSSer is using and typing them in manually to see the response.
+
+The results of these manual tests are summarised in Table~\ref{tab:evaluation}.
+
+\begin{table}
+    \caption{A test of a sample of XSS vectors from the XSSer tool.}
+    \label{tab:evaluation}
+    \begin{tabular}{c|p{.5\linewidth}}
+        No. of XSS vectors tested & Percentage blocked by our system \\\hline
+        25 & \(\frac{21}{25}\cdot100\% = 84\%\)
+    \end{tabular}
+\end{table}
+
+In order to give a more comprehensive analysis of the performance of our system we would have to insert a lot more
+XSS vectors -- the XSSer tool tests around 550 vectors, it is not feasible to do this manually.
+
+
 
 \section{Conclusion}
-The conclusion goes here.
+
+After having gone through the background for our work, the design of the system, and some results of evaluating it,
+we are ready to talk about some lessons learnt during the work and also to point forward to further work that can be
+done in this area.
+
+\subsection{Lessons learnt}
+
+Since the work on this project was started the OWASP Top 10 for 2017~\citep*{owasp2017} has been released, and on this
+list XSS has been relegated for second place in 2013 to seventh place today. From this we can say that the importance of
+this work has diminished a bit since it was undertaken, since OWASP have prioritised it lower on their list of the
+top web application vulnerabilities.
+
+During the work it was also discovered that analysis of SSL packets is challenging, and neigh on impossible if we are
+dealing with a security conscious user that has configured their web server correctly to only use ECDH or ECDHE ciphers
+we don't have a chance to decrypt the traffic even though we would have access to the private key since our solution
+is deployed serverside. An alternative could be to redirect the traffic through a proxy on the server and get the
+decrypted traffic that way, but we haven't looked into that, hence our solution is currently limited to servers without
+SSL configured, which makes its usability limited to the security conscious user, who would naturally have SSL enabled
+on their web server.
+
+\subsection{Further work}
+
+Three things could, and should, be done to develop the current solution further:
+\begin{enumerate}
+\item First upon dropping a packet we should give proper feedback to the client instead of just letting it time out.
+\item The Machine Learning classifier should be improved by adding more features to it, i.e. the vocabulary should be
+expanded with more keywords from XSS attacks. In addition to that more Machine Learning algorithms should be trained and
+compared to the current one.
+\item The solution should be expanded to also deal with SSL traffic, which is de-facto for websites in 2017.
+\end{enumerate}
 
 
 
@@ -983,29 +1128,59 @@ The conclusion goes here.
 % \subsection or using \label (\appendices by itself
 % starts a section numbered zero.)
 %
-
+\clearpage
+\bibliography{bibliography}
 
 \appendices
-\section{Proof of the First Zonklar Equation}
-Appendix one text goes here.
+%\section{Proof of the First Zonklar Equation}
+%Appendix one text goes here.
 
 % you can choose not to have a title for an appendix
 % if you want by leaving the argument blank
-\section{}
-Appendix two text goes here.
+%\section{}
+%Appendix two text goes here.
+\clearpage
+
+\section{Deployment instructions}
+
+As mentioned in the Introduction, Section~\ref{sec:introduction}, we get the deployment files from the \verb|deployment|
+subdirectory of the GitHub repository at \url{https://github.com/sigmundv/xss-prevent-py}.
+
+In there we find a file \verb|docker-compose.yml|, which contains the necessary instructions to spin up PHP, nginx and
+MariaDB, along with CouchDB, on your server. You start this stack using the command \verb|docker-compose up -d|, so make
+sure that \verb|docker| and \verb|docker-compose| are installed on your server.
+
+Inside the \verb|deployment| directory you will find a subdirectory called \verb|public|. Download and extract the DVWA
+and Mutillidae applications into this directory, which will make them available. In order for these applications to work
+you have to change the configuration to point to database host \verb|mariadb|. For DVWA the database user should
+be set to \verb|dvwa|, and the database password ditto, in the file \verb|config/config.inc.php|. For Mutillidae the
+corresponding settings are found in the file \verb|classes/MySQLHandler.php|. Here you set the \verb|root| password to
+\verb|admin|, but if you want a better password you can change it in \verb|docker-compose.yml| and reinitialise the mariadb
+container.
+
+In order to deploy our system on your server first make sure that you have Python 3 installed (along with Python header
+files). After that you can install the necessary libraries by running \verb|pip3 install -r requirements.txt| as the
+root user. Now you are ready to run our Intrusion Prevention System. We haven't daemonised it, so you can run it in a
+\verb|screen| session, which you start with \verb|screen -S <name of session>|. Including the name makes it easier to
+resume the section after you have detached from it, which would be \verb|screen -r <name of session>|.
+
+In the newly opened \verb|screen| session you change to the root user and run our system with the command
+\verb|python3 sniffer.py --destination <IP of the server> --port <port the web server is listening on>|.
+
+Now you are done, and your web applications are protected to a large degree from XSS attacks.
 
 
 % use section* for acknowledgment
-\ifCLASSOPTIONcompsoc
+%\ifCLASSOPTIONcompsoc
   % The Computer Society usually uses the plural form
-  \section*{Acknowledgments}
-\else
+%  \section*{Acknowledgments}
+%\else
   % regular IEEE prefers the singular form
-  \section*{Acknowledgment}
-\fi
+%  \section*{Acknowledgment}
+%\fi
 
 
-The authors would like to thank...
+%The authors would like to thank...
 
 
 % Can use something like this to put references on a page
@@ -1033,7 +1208,8 @@ The authors would like to thank...
 % http://www.michaelshell.org/tex/ieeetran/bibtex/
 
 % argument is your BibTeX string definitions and bibliography database(s)
-\bibliography{bibliography}
+%\clearpage
+%\bibliography{bibliography}
 %
 % <OR> manually copy in the resultant .bbl file
 % set second argument of \begin to the number of references
