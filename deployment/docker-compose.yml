@@ -1,0 +1,67 @@
+###############################################################################
+#                          Generated on phpdocker.io                          #
+###############################################################################
+version: "3.1"
+services:
+
+    mariadb:
+      image: mariadb:10.1
+      container_name: sigmundv-dvwa-mariadb
+      restart: always
+      working_dir: /application
+      volumes:
+        - .:/application
+      environment:
+        - MYSQL_ROOT_PASSWORD=admin
+        - MYSQL_DATABASE=dvwa
+        - MYSQL_USER=dvwa
+        - MYSQL_PASSWORD=p@ssw0rd
+
+    couchdb:
+      image: couchdb:latest
+      restart: always
+      environment:
+        - COUCHDB_USER=sigmund
+        - COUCHDB_PASSWORD=re9ZP4zq
+      ports:
+        - 5984:5984
+      volumes:
+        - ~/xss-prevent-py/data:/usr/local/var/lib/couchdb
+
+    webserver:
+      image: nginx:stable
+      container_name: sigmundv-dvwa-webserver
+      depends_on:
+        - mariadb
+        - couchdb
+      environment:
+        - LC_ALL=C.UTF-8
+        - LANG=C.UTF-8
+        - DESTINATION=172.19.0.5
+        - PORT=80
+        - COUCHDB_HOST=couchdb
+        - COUCHDB_USER=sigmund
+        - COUCHDB_PASSWORD=re9ZP4zq
+      working_dir: /application/xss-prevent-py
+      command: /bin/bash -c "service nginx start && while true; do sleep 10; done"
+      #command: /bin/bash -c "service nginx start && /application/add-packages.sh \
+      #                              && python3 sniffer.py --destination $${DESTINATION} --port $${PORT}"
+      volumes:
+        - .:/application
+        - ./phpdocker/nginx/nginx.conf:/etc/nginx/conf.d/default.conf
+        - ~/xss-prevent-py:/application/xss-prevent-py
+      cap_add:
+        - NET_ADMIN
+        - NET_RAW 
+      ports:
+        - "80:80"
+
+    php-fpm:
+      build: phpdocker/php-fpm
+      container_name: sigmundv-dvwa-php-fpm
+      restart: always
+      working_dir: /application
+      volumes:
+        - .:/application
+        - ./phpdocker/php-fpm/php-ini-overrides.ini:/etc/php5/fpm/conf.d/99-overrides.ini
+
