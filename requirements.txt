@@ -23,7 +23,7 @@ click == 6.7
 
 # classifier.py: 4
 # data_preprocessing.py: 3
-numpy == 1.13.3
+numpy == 1.22.0
 
 # data_preprocessing.py: 6
 pandas == 0.21.0
